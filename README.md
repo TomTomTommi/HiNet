@@ -1,5 +1,5 @@
 # HiNet: Deep Image Hiding by Invertible Network
-This repo is the official code for [*HiNet: Deep Image Hiding by Invertible Network]():
+This repo is the official code for
 
 * [**HiNet: Deep Image Hiding by Invertible Network.**](https://link.springer.com/chapter/10.1007/978-3-030-58568-6_24)
 [*Junpeng Jing*]
@@ -11,26 +11,4 @@ This repo is the official code for [*HiNet: Deep Image Hiding by Invertible Netw
 Published on [**ICCV 2021**](http://iccv2021.thecvf.com/home).
 By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/).
 
-## Visual results on JCT-VC
 
-## Dependencies and Installation
-
-
-## Dataset Preparation
-
-
-## Get Started
-
-
-## Tips
-
-
-## Pre-train model
-Here we provide a [model]
-
-
-## Citation
-If you find our paper or code useful for your research, please cite:
-```
-
-```
