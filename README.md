@@ -27,20 +27,20 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 ## Dataset
 - In this paper, we use the commonly used dataset DIV2K, COCO, and ImageNet.
 
-- For train or test on your own dataset, change the code in [config.py]() :
+- For train or test on your own dataset, change the code in `config.py`:
 
     `line30:  TRAIN_PATH = '' ` 
 
     `line31:  VAL_PATH = '' `
 
 
-## Pre-train model
+## Trained model
 - Here we provide a trained [model](https://drive.google.com/file).
 
 - Fill in the `MODEL_PATH` and the file name `suffix` before testing by the trained model.
 
 - For example, if the model name is `model.pt` and its path is `/home/usrname/Hinet/model/`, 
-set `MODEL_PATH = /home/usrname/Hinet/model/` and file name `suffix = model.pt`.
+set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.pt'`.
 
 ## Citation
 If you find our paper or code useful for your research, please cite:
