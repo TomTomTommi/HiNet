@@ -10,7 +10,7 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 ## Dependencies and Installation
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux)).
 - [PyTorch = 1.0.1](https://pytorch.org/) .
-- See [environment.yml](https://github.com/) for other dependencies.
+- See [environment.yml](https://github.com/TomTomTommi/HiNet/blob/main/environment.yml) for other dependencies.
 
 
 ## Get Started
@@ -35,7 +35,7 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 
 
 ## Trained model
-- Here we provide a trained [model](https://drive.google.com/file).
+- Here we provide a trained [model](https://drive.google.com/drive/folders/1l3XBFYPMaNFdvCWyOHfB2qIPkpjIxZgE?usp=sharing).
 
 - Fill in the `MODEL_PATH` and the file name `suffix` before testing by the trained model.
 
