@@ -1,7 +1,7 @@
 # Super parameters
 clamp = 2.0
 channels_in = 3
-log10_lr = -5.6
+log10_lr = -4.5
 lr = 10 ** log10_lr
 epochs = 1000
 weight_decay = 1e-5
@@ -20,7 +20,7 @@ weight_step = 1000
 gamma = 0.5
 
 # Val:
-cropsize_val = 256
+cropsize_val = 1024
 batchsize_val = 2
 shuffle_val = False
 val_freq = 50
@@ -28,11 +28,9 @@ val_freq = 50
 
 # Dataset
 TRAIN_PATH = '/home/jjp/Dataset/DIV2K/DIV2K_train_HR/'
-VAL_PATH = '/home/jjp/Dataset/COCO/val2017/'
-# VAL_PATH = '/home/jjp/Dataset/DIV2K/DIV2K_valid_HR/'
-# VAL_PATH = '/home/jjp/Dataset/Imagenet/ILSVRC2012_img_val/'
+VAL_PATH = '/home/jjp/Dataset/DIV2K/DIV2K_valid_HR/'
 format_train = 'png'
-format_val = 'jpg'
+format_val = 'png'
 
 # Display and logging:
 loss_display_cutoff = 2.0
@@ -55,6 +53,6 @@ IMAGE_PATH_steg = IMAGE_PATH + 'steg/'
 IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev/'
 
 # Load:
-suffix = 'model_checkpoint_04800.pt'
-tain_next = True
-trained_epoch = 4800
+suffix = 'model.pt'
+tain_next = False
+trained_epoch = 0
