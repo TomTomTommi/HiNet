@@ -7,6 +7,8 @@ This repo is the official code for
 Published on [**ICCV 2021**](http://iccv2021.thecvf.com/home).
 By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/).
 
+![framework](./HiNet.png)
+
 ## Dependencies and Installation
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux)).
 - [PyTorch = 1.0.1](https://pytorch.org/) .
