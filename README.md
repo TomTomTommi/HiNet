@@ -1,7 +1,7 @@
 # HiNet: Deep Image Hiding by Invertible Network
 This repo is the official code for
 
-* [**HiNet: Deep Image Hiding by Invertible Network.**](https://) 
+* [**HiNet: Deep Image Hiding by Invertible Network.**](https://openaccess.thecvf.com/content/ICCV2021/html/Jing_HiNet_Deep_Image_Hiding_by_Invertible_Network_ICCV_2021_paper.html) 
   * [*Junpeng Jing*](https://tomtomtommi.github.io/), [*Xin Deng*](http://www.commsp.ee.ic.ac.uk/~xindeng/), [*Mai Xu*](http://shi.buaa.edu.cn/MaiXu/zh_CN/index.htm), [*Jianyi Wang*](http://buaamc2.net/html/Members/jianyiwang.html), [*Zhenyu Guan*](http://cst.buaa.edu.cn/info/1071/2542.htm).
 
 Published on [**ICCV 2021**](http://iccv2021.thecvf.com/home).
@@ -47,12 +47,13 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 ## Citation
 If you find our paper or code useful for your research, please cite:
 ```
-@inproceedings{jing2021hinet,
-  title={HiNet: Deep Image Hiding by Invertible Network},
-  author={Jing, Junpeng and Deng, Xin and Xu, Mai and Wang, Jianyi and Guan, Zhenyu},
-  booktitle={International Conference on Computer Vision},
-  pages={},
-  year={2021},
-  organization={Springer}
+@InProceedings{Jing_2021_ICCV,
+    author    = {Jing, Junpeng and Deng, Xin and Xu, Mai and Wang, Jianyi and Guan, Zhenyu},
+    title     = {HiNet: Deep Image Hiding by Invertible Network},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {4733-4742}
 }
+
 ```
