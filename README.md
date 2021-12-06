@@ -44,6 +44,9 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 - For example, if the model name is `model.pt` and its path is `/home/usrname/Hinet/model/`, 
 set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.pt'`.
 
+## Others
+- The `batchsize_val` in `config.py` should be at least `2*number of gpus` and it should be divisible by number of gpus.
+
 ## Citation
 If you find our paper or code useful for your research, please cite:
 ```
