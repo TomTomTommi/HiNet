@@ -44,6 +44,39 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 - For example, if the model name is `model.pt` and its path is `/home/usrname/Hinet/model/`, 
 set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.pt'`.
 
+
+## Training demo
+- Here we provide a training demo to show how to train a converged model in the early training stage.
+- Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
+
+- Stage1: 
+  Run `python train_logging.py` for training.
+  The logging file is [train__211222-183515.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211222-183515.log).
+  ![framework](https://github.com/TomTomTommi/HiNet/blob/main/logging/stage1.png)
+  See the tensorboard:
+  <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage1.png width=60% />
+  Note that in the 507-th epoch the model exploded. Thus, we stop the stage1 at epoch 500.
+  
+
+- Stage2: 
+  Set `suffix = 'model_checkpoint_00500.pt'` and `tain_next = True` and `trained_epoch = 500`
+  Run `python train_logging.py` for training.
+  The logging file is [train__211223-100502.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211223-100502.log).
+  ![framework](https://github.com/TomTomTommi/HiNet/blob/main/logging/stage2.png)
+  See the tensorboard:
+  <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage1.png width=60% />
+  Note that in the 1692-th epoch the model exploded. Thus, we stop the stage2 at epoch 1690.
+
+
+- Stage3: 
+  Similar operation.
+  The logging file is [train__211224-105010.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211224-105010.log).
+  ![framework](https://github.com/TomTomTommi/HiNet/blob/main/logging/stage3.png)
+  See the tensorboard:
+  <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage1.png width=60% />
+  We can see that the network has initially converged. Then, you can change the super-parameters lamda according to the PSNR to balance the quality of stego image and recovered image.
+
+
 ## Others
 - The `batchsize_val` in `config.py` should be at least `2*number of gpus` and it should be divisible by number of gpus.
 
