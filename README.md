@@ -47,7 +47,7 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.pt'`.
 
 
-## Training Demo
+## Training Demo (2021/12/25 Updated)
 - Here we provide a training demo to show how to train a converged model in the early training stage. During this process, the model may suffer from explosion. Our solution is to stop the training process at a normal node and abate the learning rate. Then, continue to train the model.
 
 - Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
@@ -99,7 +99,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage3.png width=60% />
   <br/>
   <br/>
-  We can see that the network has initially converged. Then, you can change the super-parameters lamda according to the PSNR to balance the quality of stego image and recovered image. Note that the PSNR in the tensorboard is RGB-PSNR and in our paper is Y-PSNR.
+  We can see that the network has initially converged. Then, you can change the super-parameters lamda according to the PSNR to balance the quality between stego image and recovered image. Note that the PSNR in the tensorboard is RGB-PSNR and in our paper is Y-PSNR.
 
 
 ## Others
