@@ -46,13 +46,16 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 
 
 ## Training Demo
-- Here we provide a training demo to show how to train a converged model in the early training stage. Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
+- Here we provide a training demo to show how to train a converged model in the early training stage. During this process, the model may suffer from explosion. Our solution is to stop the training process at a normal node and abate the learning rate. Then, continue to train the model.
+
+- Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
 
 
 - Stage1: 
-  Run `python train_logging.py` for training.
+  Run `python train_logging.py` for training with initial `config.py` (learning rate=10^-4.5).
   The logging file is [train__211222-183515.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211222-183515.log).
   (The values of r_loss and g_loss are reversed due to a small bug, which has been debuged in stage2.)
+  <br/>
   <br/>
   See the tensorboard:
   <br/>
@@ -60,13 +63,16 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
   <br/>
   <br/>
   Note that in the 507-th epoch the model exploded. Thus, we stop the stage1 at epoch 500.
-  
+
 
 - Stage2: 
   Set `suffix = 'model_checkpoint_00500.pt'` and `tain_next = True` and `trained_epoch = 500`
+  Change the learning rate from 10^-4.5 to 10^-5.0.
   Run `python train_logging.py` for training.
   <br/>
   The logging file is [train__211223-100502.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211223-100502.log).
+  <br/>
+  <br/>
   See the tensorboard:
   <br/>
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage2.png width=60% />
@@ -77,7 +83,9 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 
 - Stage3: 
   Similar operation.
+  Change the learning rate from 10^-5.0 to 10^-5.2.
   The logging file is [train__211224-105010.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211224-105010.log).
+  <br/>
   <br/>
   See the tensorboard:
   <br/>
