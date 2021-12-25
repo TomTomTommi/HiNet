@@ -7,7 +7,7 @@ This repo is the official code for
 Published on [**ICCV 2021**](http://iccv2021.thecvf.com/home).
 By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/).
 
-<img src=https://github.com/TomTomTommi/HiNet/blob/main/HiNet.png width=80% />
+<img src=https://github.com/TomTomTommi/HiNet/blob/main/HiNet.png width=60% />
 
 ## Dependencies and Installation
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux)).
@@ -46,31 +46,41 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 
 
 ## Training demo
-- Here we provide a training demo to show how to train a converged model in the early training stage.
-- Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
+- Here we provide a training demo to show how to train a converged model in the early training stage. Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
 
+<br/>
 - Stage1: 
   Run `python train_logging.py` for training.
   The logging file is [train__211222-183515.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211222-183515.log).
+  (The values of r_loss and g_loss are reversed due to a small bug, which has been debuged in stage2.)
+  <br/>
   See the tensorboard:
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage1.png width=60% />
+  <br/>
+  <br/>
   Note that in the 507-th epoch the model exploded. Thus, we stop the stage1 at epoch 500.
   
 
 - Stage2: 
   Set `suffix = 'model_checkpoint_00500.pt'` and `tain_next = True` and `trained_epoch = 500`
   Run `python train_logging.py` for training.
+  <br/>
   The logging file is [train__211223-100502.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211223-100502.log).
   See the tensorboard:
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage2.png width=60% />
+  <br/>
+  <br/>
   Note that in the 1692-th epoch the model exploded. Thus, we stop the stage2 at epoch 1690.
 
 
 - Stage3: 
   Similar operation.
   The logging file is [train__211224-105010.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211224-105010.log).
+  <br/>
   See the tensorboard:
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage3.png width=60% />
+  <br/>
+  <br/>
   We can see that the network has initially converged. Then, you can change the super-parameters lamda according to the PSNR to balance the quality of stego image and recovered image.
 
 
