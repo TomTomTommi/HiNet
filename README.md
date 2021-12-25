@@ -36,7 +36,7 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
     `line31:  VAL_PATH = '' `
 
 
-## Trained model
+## Trained Model
 - Here we provide a trained [model](https://drive.google.com/drive/folders/1l3XBFYPMaNFdvCWyOHfB2qIPkpjIxZgE?usp=sharing).
 
 - Fill in the `MODEL_PATH` and the file name `suffix` before testing by the trained model.
@@ -45,7 +45,7 @@ By [MC2 Lab](http://buaamc2.net/) @ [Beihang University](http://ev.buaa.edu.cn/)
 set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.pt'`.
 
 
-## Training demo
+## Training Demo
 - Here we provide a training demo to show how to train a converged model in the early training stage. Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
 
 
@@ -55,6 +55,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
   (The values of r_loss and g_loss are reversed due to a small bug, which has been debuged in stage2.)
   <br/>
   See the tensorboard:
+  <br/>
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage1.png width=60% />
   <br/>
   <br/>
@@ -67,6 +68,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
   <br/>
   The logging file is [train__211223-100502.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211223-100502.log).
   See the tensorboard:
+  <br/>
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage2.png width=60% />
   <br/>
   <br/>
@@ -78,6 +80,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
   The logging file is [train__211224-105010.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211224-105010.log).
   <br/>
   See the tensorboard:
+  <br/>
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage3.png width=60% />
   <br/>
   <br/>
