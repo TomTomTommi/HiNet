@@ -1,0 +1,1940 @@
+21-12-22 18:35:15.784 - INFO: DataParallel(
+  (module): Model(
+    (model): Hinet(
+      (inv1): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv2): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv3): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv4): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv5): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv6): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv7): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv8): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv9): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv10): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv11): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv12): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv13): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv14): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv15): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+      (inv16): INV_block(
+        (r): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (y): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+        (f): ResidualDenseBlock_out(
+          (conv1): Conv2d(12, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv2): Conv2d(44, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv3): Conv2d(76, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv4): Conv2d(108, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (conv5): Conv2d(140, 12, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (lrelu): LeakyReLU(negative_slope=0.01, inplace)
+        )
+      )
+    )
+  )
+)
+21-12-22 18:36:26.983 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:36:26.983 - INFO: Train epoch 1:   Loss: 1916530.6087 | r_Loss: 102788.5950 | g_Loss: 360085.9344 | l_Loss: 13312.3456 | 
+21-12-22 18:37:38.852 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:37:38.853 - INFO: Train epoch 2:   Loss: 283685.8447 | r_Loss: 35807.4640 | g_Loss: 48669.8036 | l_Loss: 4529.3622 | 
+21-12-22 18:38:50.731 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:38:50.732 - INFO: Train epoch 3:   Loss: 224030.6595 | r_Loss: 21267.3226 | g_Loss: 40083.8091 | l_Loss: 2344.2918 | 
+21-12-22 18:40:02.623 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:40:02.624 - INFO: Train epoch 4:   Loss: 158706.2889 | r_Loss: 14590.3483 | g_Loss: 28442.3184 | l_Loss: 1904.3474 | 
+21-12-22 18:41:14.682 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:41:14.683 - INFO: Train epoch 5:   Loss: 163240.7969 | r_Loss: 12599.3926 | g_Loss: 29776.1817 | l_Loss: 1760.4959 | 
+21-12-22 18:42:26.607 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:42:26.608 - INFO: Train epoch 6:   Loss: 145886.6773 | r_Loss: 11285.0963 | g_Loss: 26611.1108 | l_Loss: 1546.0276 | 
+21-12-22 18:43:38.485 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:43:38.486 - INFO: Train epoch 7:   Loss: 134074.5503 | r_Loss: 9025.2018 | g_Loss: 24783.6321 | l_Loss: 1131.1864 | 
+21-12-22 18:44:50.323 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:44:50.323 - INFO: Train epoch 8:   Loss: 121420.2602 | r_Loss: 8606.2344 | g_Loss: 22327.0586 | l_Loss: 1178.7340 | 
+21-12-22 18:46:02.176 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:46:02.177 - INFO: Train epoch 9:   Loss: 122202.0555 | r_Loss: 6858.1651 | g_Loss: 22904.1718 | l_Loss: 823.0301 | 
+21-12-22 18:47:13.896 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:47:13.896 - INFO: Train epoch 10:   Loss: 136471.0877 | r_Loss: 9423.7402 | g_Loss: 25191.3217 | l_Loss: 1090.7403 | 
+21-12-22 18:48:25.691 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:48:25.691 - INFO: Train epoch 11:   Loss: 107961.1444 | r_Loss: 5840.4038 | g_Loss: 20244.6550 | l_Loss: 897.4663 | 
+21-12-22 18:49:37.521 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:49:37.522 - INFO: Train epoch 12:   Loss: 485130.6858 | r_Loss: 31769.5842 | g_Loss: 89893.0403 | l_Loss: 3895.9129 | 
+21-12-22 18:50:49.266 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:50:49.266 - INFO: Train epoch 13:   Loss: 151705.1645 | r_Loss: 16805.2286 | g_Loss: 26605.7868 | l_Loss: 1871.0028 | 
+21-12-22 18:52:00.949 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:52:00.950 - INFO: Train epoch 14:   Loss: 128397.9205 | r_Loss: 10097.1638 | g_Loss: 23420.3183 | l_Loss: 1199.1644 | 
+21-12-22 18:53:12.643 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:53:12.644 - INFO: Train epoch 15:   Loss: 111989.2177 | r_Loss: 8957.6058 | g_Loss: 20382.2197 | l_Loss: 1120.5144 | 
+21-12-22 18:54:24.350 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:54:24.351 - INFO: Train epoch 16:   Loss: 105015.4739 | r_Loss: 7037.8217 | g_Loss: 19443.5949 | l_Loss: 759.6777 | 
+21-12-22 18:55:36.173 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:55:36.174 - INFO: Train epoch 17:   Loss: 123558.2725 | r_Loss: 7039.1299 | g_Loss: 23123.6531 | l_Loss: 900.8759 | 
+21-12-22 18:56:48.103 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:56:48.103 - INFO: Train epoch 18:   Loss: 112097.1477 | r_Loss: 6368.6927 | g_Loss: 20990.6381 | l_Loss: 775.2658 | 
+21-12-22 18:57:59.910 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:57:59.910 - INFO: Train epoch 19:   Loss: 114564.5614 | r_Loss: 5753.4407 | g_Loss: 21630.5812 | l_Loss: 658.2140 | 
+21-12-22 18:59:11.722 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 18:59:11.722 - INFO: Train epoch 20:   Loss: 99518.6668 | r_Loss: 6046.9635 | g_Loss: 18545.9561 | l_Loss: 741.9222 | 
+21-12-22 19:00:23.722 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:00:23.722 - INFO: Train epoch 21:   Loss: 110340.7299 | r_Loss: 5825.3805 | g_Loss: 20766.3231 | l_Loss: 683.7340 | 
+21-12-22 19:01:35.705 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:01:35.706 - INFO: Train epoch 22:   Loss: 100620.7459 | r_Loss: 5382.7266 | g_Loss: 18893.8807 | l_Loss: 768.6155 | 
+21-12-22 19:02:47.318 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:02:47.319 - INFO: Train epoch 23:   Loss: 99746.6170 | r_Loss: 5043.1425 | g_Loss: 18801.0269 | l_Loss: 698.3406 | 
+21-12-22 19:03:59.287 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:03:59.288 - INFO: Train epoch 24:   Loss: 93780.7573 | r_Loss: 5846.0949 | g_Loss: 17432.3253 | l_Loss: 773.0354 | 
+21-12-22 19:05:11.109 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:05:11.110 - INFO: Train epoch 25:   Loss: 100899.1276 | r_Loss: 5416.6849 | g_Loss: 18970.5545 | l_Loss: 629.6696 | 
+21-12-22 19:06:22.924 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:06:22.925 - INFO: Train epoch 26:   Loss: 95658.3858 | r_Loss: 5295.2835 | g_Loss: 17922.5744 | l_Loss: 750.2308 | 
+21-12-22 19:07:34.800 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:07:34.800 - INFO: Train epoch 27:   Loss: 92960.0682 | r_Loss: 5096.9779 | g_Loss: 17449.4505 | l_Loss: 615.8386 | 
+21-12-22 19:08:46.616 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:08:46.617 - INFO: Train epoch 28:   Loss: 94073.5911 | r_Loss: 4942.2597 | g_Loss: 17705.2431 | l_Loss: 605.1158 | 
+21-12-22 19:09:58.361 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:09:58.362 - INFO: Train epoch 29:   Loss: 96355.1770 | r_Loss: 5353.4785 | g_Loss: 18086.9778 | l_Loss: 566.8100 | 
+21-12-22 19:11:43.908 - INFO: TEST:   PSNR_S: 19.8193 | PSNR_C: 23.4743 | 
+21-12-22 19:11:43.909 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:11:43.909 - INFO: Train epoch 30:   Loss: 99024.9319 | r_Loss: 5586.3135 | g_Loss: 18544.4066 | l_Loss: 716.5852 | 
+21-12-22 19:12:55.624 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:12:55.625 - INFO: Train epoch 31:   Loss: 98538.9102 | r_Loss: 5540.8903 | g_Loss: 18463.3595 | l_Loss: 681.2220 | 
+21-12-22 19:14:07.539 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:14:07.540 - INFO: Train epoch 32:   Loss: 91550.5468 | r_Loss: 5660.9612 | g_Loss: 17050.9749 | l_Loss: 634.7113 | 
+21-12-22 19:15:19.441 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:15:19.441 - INFO: Train epoch 33:   Loss: 93384.6013 | r_Loss: 6166.8778 | g_Loss: 17276.7829 | l_Loss: 833.8093 | 
+21-12-22 19:16:31.351 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:16:31.351 - INFO: Train epoch 34:   Loss: 77829.5837 | r_Loss: 7108.6995 | g_Loss: 13963.7100 | l_Loss: 902.3337 | 
+21-12-22 19:17:43.210 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:17:43.211 - INFO: Train epoch 35:   Loss: 74310.4207 | r_Loss: 9494.7295 | g_Loss: 12721.3827 | l_Loss: 1208.7780 | 
+21-12-22 19:18:55.045 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:18:55.046 - INFO: Train epoch 36:   Loss: 69724.0864 | r_Loss: 10863.8109 | g_Loss: 11573.4593 | l_Loss: 992.9794 | 
+21-12-22 19:20:06.848 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:20:06.849 - INFO: Train epoch 37:   Loss: 52294.3337 | r_Loss: 9285.8723 | g_Loss: 8385.4427 | l_Loss: 1081.2468 | 
+21-12-22 19:21:18.739 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:21:18.740 - INFO: Train epoch 38:   Loss: 56965.3714 | r_Loss: 8709.5626 | g_Loss: 9380.5371 | l_Loss: 1353.1239 | 
+21-12-22 19:22:30.787 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:22:30.788 - INFO: Train epoch 39:   Loss: 51276.8025 | r_Loss: 8020.2103 | g_Loss: 8421.2233 | l_Loss: 1150.4749 | 
+21-12-22 19:23:42.753 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:23:42.753 - INFO: Train epoch 40:   Loss: 47764.1348 | r_Loss: 7001.6987 | g_Loss: 7970.4975 | l_Loss: 909.9489 | 
+21-12-22 19:24:54.511 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:24:54.511 - INFO: Train epoch 41:   Loss: 48155.8277 | r_Loss: 7282.1811 | g_Loss: 8003.3746 | l_Loss: 856.7744 | 
+21-12-22 19:26:06.384 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:26:06.385 - INFO: Train epoch 42:   Loss: 48455.2601 | r_Loss: 6392.9273 | g_Loss: 8245.4818 | l_Loss: 834.9239 | 
+21-12-22 19:27:18.100 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:27:18.101 - INFO: Train epoch 43:   Loss: 46717.3673 | r_Loss: 6299.9798 | g_Loss: 7906.3217 | l_Loss: 885.7791 | 
+21-12-22 19:28:29.850 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:28:29.851 - INFO: Train epoch 44:   Loss: 41815.2180 | r_Loss: 5934.1662 | g_Loss: 7036.7091 | l_Loss: 697.5062 | 
+21-12-22 19:29:41.729 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:29:41.730 - INFO: Train epoch 45:   Loss: 44937.6304 | r_Loss: 5596.1181 | g_Loss: 7712.8649 | l_Loss: 777.1872 | 
+21-12-22 19:30:53.470 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:30:53.471 - INFO: Train epoch 46:   Loss: 45333.4879 | r_Loss: 5821.4603 | g_Loss: 7761.8428 | l_Loss: 702.8132 | 
+21-12-22 19:32:05.093 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:32:05.093 - INFO: Train epoch 47:   Loss: 37154.6009 | r_Loss: 5362.4525 | g_Loss: 6238.6018 | l_Loss: 599.1395 | 
+21-12-22 19:33:16.787 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:33:16.788 - INFO: Train epoch 48:   Loss: 42004.4616 | r_Loss: 5252.6135 | g_Loss: 7223.1537 | l_Loss: 636.0801 | 
+21-12-22 19:34:28.564 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:34:28.565 - INFO: Train epoch 49:   Loss: 41553.0154 | r_Loss: 5276.1923 | g_Loss: 7121.4157 | l_Loss: 669.7442 | 
+21-12-22 19:35:40.588 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:35:40.588 - INFO: Train epoch 50:   Loss: 54623.5339 | r_Loss: 5371.9379 | g_Loss: 9709.1540 | l_Loss: 705.8253 | 
+21-12-22 19:36:52.466 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:36:52.466 - INFO: Train epoch 51:   Loss: 42918.8186 | r_Loss: 6267.7249 | g_Loss: 7175.5440 | l_Loss: 773.3741 | 
+21-12-22 19:38:04.354 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:38:04.354 - INFO: Train epoch 52:   Loss: 38656.3892 | r_Loss: 5336.7248 | g_Loss: 6528.5062 | l_Loss: 677.1332 | 
+21-12-22 19:39:16.221 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:39:16.222 - INFO: Train epoch 53:   Loss: 38940.0750 | r_Loss: 5003.8909 | g_Loss: 6628.4260 | l_Loss: 794.0546 | 
+21-12-22 19:40:28.120 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:40:28.121 - INFO: Train epoch 54:   Loss: 38471.1475 | r_Loss: 4886.3822 | g_Loss: 6569.5278 | l_Loss: 737.1263 | 
+21-12-22 19:41:39.998 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:41:39.998 - INFO: Train epoch 55:   Loss: 41086.1729 | r_Loss: 4651.1002 | g_Loss: 7173.2689 | l_Loss: 568.7273 | 
+21-12-22 19:42:51.759 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:42:51.759 - INFO: Train epoch 56:   Loss: 59183.1506 | r_Loss: 5361.0480 | g_Loss: 10614.2246 | l_Loss: 750.9801 | 
+21-12-22 19:44:03.496 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:44:03.496 - INFO: Train epoch 57:   Loss: 38515.6164 | r_Loss: 5358.6152 | g_Loss: 6492.8062 | l_Loss: 692.9702 | 
+21-12-22 19:45:15.333 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:45:15.333 - INFO: Train epoch 58:   Loss: 35177.1862 | r_Loss: 4979.8452 | g_Loss: 5917.4729 | l_Loss: 609.9764 | 
+21-12-22 19:46:27.325 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:46:27.326 - INFO: Train epoch 59:   Loss: 36637.2636 | r_Loss: 4687.0900 | g_Loss: 6280.7927 | l_Loss: 546.2105 | 
+21-12-22 19:48:12.983 - INFO: TEST:   PSNR_S: 23.8853 | PSNR_C: 24.5243 | 
+21-12-22 19:48:12.984 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:48:12.985 - INFO: Train epoch 60:   Loss: 42134.2096 | r_Loss: 4571.7637 | g_Loss: 7398.5892 | l_Loss: 569.4997 | 
+21-12-22 19:49:24.758 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:49:24.759 - INFO: Train epoch 61:   Loss: 32280.4110 | r_Loss: 4497.7907 | g_Loss: 5442.2084 | l_Loss: 571.5780 | 
+21-12-22 19:50:36.656 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:50:36.657 - INFO: Train epoch 62:   Loss: 31958.5495 | r_Loss: 4431.0904 | g_Loss: 5381.6426 | l_Loss: 619.2462 | 
+21-12-22 19:51:48.611 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:51:48.611 - INFO: Train epoch 63:   Loss: 32817.9409 | r_Loss: 4119.5277 | g_Loss: 5649.4970 | l_Loss: 450.9283 | 
+21-12-22 19:53:00.550 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:53:00.551 - INFO: Train epoch 64:   Loss: 38051.7816 | r_Loss: 4232.9049 | g_Loss: 6652.6408 | l_Loss: 555.6725 | 
+21-12-22 19:54:12.457 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:54:12.458 - INFO: Train epoch 65:   Loss: 34867.1996 | r_Loss: 4277.1156 | g_Loss: 6015.3669 | l_Loss: 513.2493 | 
+21-12-22 19:55:24.292 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:55:24.293 - INFO: Train epoch 66:   Loss: 31819.8045 | r_Loss: 4115.4255 | g_Loss: 5454.0983 | l_Loss: 433.8873 | 
+21-12-22 19:56:36.094 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:56:36.095 - INFO: Train epoch 67:   Loss: 34828.6469 | r_Loss: 4002.6987 | g_Loss: 6071.9324 | l_Loss: 466.2861 | 
+21-12-22 19:57:47.939 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:57:47.939 - INFO: Train epoch 68:   Loss: 37350.5337 | r_Loss: 3994.9277 | g_Loss: 6561.5923 | l_Loss: 547.6441 | 
+21-12-22 19:58:59.832 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 19:58:59.833 - INFO: Train epoch 69:   Loss: 33193.3755 | r_Loss: 4052.6953 | g_Loss: 5722.1048 | l_Loss: 530.1563 | 
+21-12-22 20:00:11.604 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:00:11.605 - INFO: Train epoch 70:   Loss: 31803.6246 | r_Loss: 4103.4976 | g_Loss: 5424.5795 | l_Loss: 577.2293 | 
+21-12-22 20:01:23.397 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:01:23.397 - INFO: Train epoch 71:   Loss: 35658.5235 | r_Loss: 3969.1713 | g_Loss: 6245.4957 | l_Loss: 461.8740 | 
+21-12-22 20:02:35.376 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:02:35.376 - INFO: Train epoch 72:   Loss: 33273.9690 | r_Loss: 4031.3716 | g_Loss: 5754.7480 | l_Loss: 468.8574 | 
+21-12-22 20:03:47.374 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:03:47.374 - INFO: Train epoch 73:   Loss: 31997.0918 | r_Loss: 3894.0523 | g_Loss: 5515.6542 | l_Loss: 524.7681 | 
+21-12-22 20:04:59.301 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:04:59.301 - INFO: Train epoch 74:   Loss: 29749.8680 | r_Loss: 3743.6633 | g_Loss: 5094.6368 | l_Loss: 533.0205 | 
+21-12-22 20:06:11.214 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:06:11.215 - INFO: Train epoch 75:   Loss: 31316.6220 | r_Loss: 3727.8082 | g_Loss: 5418.7688 | l_Loss: 494.9694 | 
+21-12-22 20:07:23.168 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:07:23.169 - INFO: Train epoch 76:   Loss: 29193.5801 | r_Loss: 3461.8510 | g_Loss: 5045.4350 | l_Loss: 504.5544 | 
+21-12-22 20:08:35.203 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:08:35.204 - INFO: Train epoch 77:   Loss: 29583.6322 | r_Loss: 3454.7472 | g_Loss: 5152.3946 | l_Loss: 366.9120 | 
+21-12-22 20:09:47.122 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:09:47.123 - INFO: Train epoch 78:   Loss: 32468.2160 | r_Loss: 3839.8608 | g_Loss: 5639.9090 | l_Loss: 428.8102 | 
+21-12-22 20:10:58.909 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:10:58.909 - INFO: Train epoch 79:   Loss: 28015.7399 | r_Loss: 3704.3633 | g_Loss: 4761.1647 | l_Loss: 505.5524 | 
+21-12-22 20:12:10.749 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:12:10.750 - INFO: Train epoch 80:   Loss: 342866.0490 | r_Loss: 34705.5339 | g_Loss: 60719.6382 | l_Loss: 4562.3195 | 
+21-12-22 20:13:22.641 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:13:22.641 - INFO: Train epoch 81:   Loss: 64890.4735 | r_Loss: 12810.6736 | g_Loss: 10067.3952 | l_Loss: 1742.8233 | 
+21-12-22 20:14:34.632 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:14:34.633 - INFO: Train epoch 82:   Loss: 46769.0341 | r_Loss: 10368.6590 | g_Loss: 7025.7791 | l_Loss: 1271.4796 | 
+21-12-22 20:15:46.573 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:15:46.573 - INFO: Train epoch 83:   Loss: 40247.8239 | r_Loss: 8742.3530 | g_Loss: 6041.4586 | l_Loss: 1298.1774 | 
+21-12-22 20:16:58.541 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:16:58.542 - INFO: Train epoch 84:   Loss: 36324.4422 | r_Loss: 7551.5208 | g_Loss: 5542.6111 | l_Loss: 1059.8660 | 
+21-12-22 20:18:10.549 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:18:10.550 - INFO: Train epoch 85:   Loss: 33744.4767 | r_Loss: 6900.0976 | g_Loss: 5205.4819 | l_Loss: 816.9696 | 
+21-12-22 20:19:22.385 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:19:22.385 - INFO: Train epoch 86:   Loss: 29984.0971 | r_Loss: 6302.2685 | g_Loss: 4570.4455 | l_Loss: 829.6008 | 
+21-12-22 20:20:34.159 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:20:34.160 - INFO: Train epoch 87:   Loss: 28899.3025 | r_Loss: 5858.6954 | g_Loss: 4466.2121 | l_Loss: 709.5463 | 
+21-12-22 20:21:46.039 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:21:46.040 - INFO: Train epoch 88:   Loss: 28071.3953 | r_Loss: 5501.5555 | g_Loss: 4364.7567 | l_Loss: 746.0566 | 
+21-12-22 20:22:57.999 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:22:58.000 - INFO: Train epoch 89:   Loss: 27034.3433 | r_Loss: 5542.3232 | g_Loss: 4158.2607 | l_Loss: 700.7162 | 
+21-12-22 20:24:43.789 - INFO: TEST:   PSNR_S: 25.8681 | PSNR_C: 24.2186 | 
+21-12-22 20:24:43.790 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:24:43.790 - INFO: Train epoch 90:   Loss: 27429.1166 | r_Loss: 5167.5514 | g_Loss: 4311.4618 | l_Loss: 704.2561 | 
+21-12-22 20:25:55.660 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:25:55.661 - INFO: Train epoch 91:   Loss: 26321.7543 | r_Loss: 5063.5385 | g_Loss: 4123.2744 | l_Loss: 641.8438 | 
+21-12-22 20:27:07.504 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:27:07.505 - INFO: Train epoch 92:   Loss: 24511.1963 | r_Loss: 5070.5907 | g_Loss: 3775.2423 | l_Loss: 564.3946 | 
+21-12-22 20:28:19.329 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:28:19.330 - INFO: Train epoch 93:   Loss: 24642.1308 | r_Loss: 4865.9146 | g_Loss: 3842.0976 | l_Loss: 565.7282 | 
+21-12-22 20:29:31.122 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:29:31.123 - INFO: Train epoch 94:   Loss: 20589.7835 | r_Loss: 4519.5283 | g_Loss: 3107.4175 | l_Loss: 533.1675 | 
+21-12-22 20:30:43.029 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:30:43.030 - INFO: Train epoch 95:   Loss: 20890.6618 | r_Loss: 4341.8538 | g_Loss: 3214.4236 | l_Loss: 476.6901 | 
+21-12-22 20:31:54.839 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:31:54.839 - INFO: Train epoch 96:   Loss: 68466.5346 | r_Loss: 7802.2862 | g_Loss: 11950.4663 | l_Loss: 911.9162 | 
+21-12-22 20:33:06.575 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:33:06.575 - INFO: Train epoch 97:   Loss: 40537.8210 | r_Loss: 14383.5867 | g_Loss: 4940.4311 | l_Loss: 1452.0787 | 
+21-12-22 20:34:18.527 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:34:18.527 - INFO: Train epoch 98:   Loss: 26632.5315 | r_Loss: 7718.0495 | g_Loss: 3597.9815 | l_Loss: 924.5744 | 
+21-12-22 20:35:30.541 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:35:30.542 - INFO: Train epoch 99:   Loss: 24876.1990 | r_Loss: 6436.3721 | g_Loss: 3523.4448 | l_Loss: 822.6029 | 
+21-12-22 20:36:42.475 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:36:42.476 - INFO: Train epoch 100:   Loss: 23284.8408 | r_Loss: 6006.3252 | g_Loss: 3314.9716 | l_Loss: 703.6574 | 
+21-12-22 20:37:54.590 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:37:54.591 - INFO: Train epoch 101:   Loss: 23025.3239 | r_Loss: 5575.1147 | g_Loss: 3341.5128 | l_Loss: 742.6451 | 
+21-12-22 20:39:06.572 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:39:06.573 - INFO: Train epoch 102:   Loss: 19243.0120 | r_Loss: 5033.9181 | g_Loss: 2716.7555 | l_Loss: 625.3164 | 
+21-12-22 20:40:18.736 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:40:18.737 - INFO: Train epoch 103:   Loss: 19524.4420 | r_Loss: 4836.3808 | g_Loss: 2823.7097 | l_Loss: 569.5127 | 
+21-12-22 20:41:30.836 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:41:30.836 - INFO: Train epoch 104:   Loss: 17540.4176 | r_Loss: 4479.8870 | g_Loss: 2505.5700 | l_Loss: 532.6805 | 
+21-12-22 20:42:42.784 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:42:42.784 - INFO: Train epoch 105:   Loss: 17820.4678 | r_Loss: 4233.8928 | g_Loss: 2626.8312 | l_Loss: 452.4191 | 
+21-12-22 20:43:54.672 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:43:54.672 - INFO: Train epoch 106:   Loss: 19130.2410 | r_Loss: 4222.2630 | g_Loss: 2878.3505 | l_Loss: 516.2255 | 
+21-12-22 20:45:06.722 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:45:06.722 - INFO: Train epoch 107:   Loss: 16477.7752 | r_Loss: 3923.4162 | g_Loss: 2410.0183 | l_Loss: 504.2671 | 
+21-12-22 20:46:18.888 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:46:18.889 - INFO: Train epoch 108:   Loss: 18694.0237 | r_Loss: 4054.0613 | g_Loss: 2820.0210 | l_Loss: 539.8571 | 
+21-12-22 20:47:30.951 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:47:30.952 - INFO: Train epoch 109:   Loss: 16835.4866 | r_Loss: 3874.2568 | g_Loss: 2493.3063 | l_Loss: 494.6984 | 
+21-12-22 20:48:42.900 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:48:42.901 - INFO: Train epoch 110:   Loss: 16738.1378 | r_Loss: 3635.6416 | g_Loss: 2531.9113 | l_Loss: 442.9398 | 
+21-12-22 20:49:54.951 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:49:54.952 - INFO: Train epoch 111:   Loss: 17317.6649 | r_Loss: 3691.6990 | g_Loss: 2629.7406 | l_Loss: 477.2632 | 
+21-12-22 20:51:07.106 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:51:07.106 - INFO: Train epoch 112:   Loss: 16501.1131 | r_Loss: 3524.7622 | g_Loss: 2505.2059 | l_Loss: 450.3214 | 
+21-12-22 20:52:19.131 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:52:19.132 - INFO: Train epoch 113:   Loss: 15375.0421 | r_Loss: 3321.5725 | g_Loss: 2319.4758 | l_Loss: 456.0907 | 
+21-12-22 20:53:31.093 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:53:31.094 - INFO: Train epoch 114:   Loss: 15642.6089 | r_Loss: 3292.4873 | g_Loss: 2385.1636 | l_Loss: 424.3036 | 
+21-12-22 20:54:43.086 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:54:43.087 - INFO: Train epoch 115:   Loss: 15422.0306 | r_Loss: 3226.7952 | g_Loss: 2366.9861 | l_Loss: 360.3051 | 
+21-12-22 20:55:54.956 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:55:54.956 - INFO: Train epoch 116:   Loss: 14017.6159 | r_Loss: 3124.4570 | g_Loss: 2106.5922 | l_Loss: 360.1975 | 
+21-12-22 20:57:06.900 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:57:06.901 - INFO: Train epoch 117:   Loss: 15065.3337 | r_Loss: 3137.7820 | g_Loss: 2298.5352 | l_Loss: 434.8757 | 
+21-12-22 20:58:19.089 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:58:19.090 - INFO: Train epoch 118:   Loss: 14413.3867 | r_Loss: 3047.6079 | g_Loss: 2188.1003 | l_Loss: 425.2776 | 
+21-12-22 20:59:31.062 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 20:59:31.062 - INFO: Train epoch 119:   Loss: 13817.0255 | r_Loss: 3010.6503 | g_Loss: 2085.2487 | l_Loss: 380.1320 | 
+21-12-22 21:01:16.916 - INFO: TEST:   PSNR_S: 28.9198 | PSNR_C: 26.6148 | 
+21-12-22 21:01:16.918 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:01:16.918 - INFO: Train epoch 120:   Loss: 15093.5819 | r_Loss: 3092.1541 | g_Loss: 2326.4818 | l_Loss: 369.0190 | 
+21-12-22 21:02:28.848 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:02:28.848 - INFO: Train epoch 121:   Loss: 13238.4354 | r_Loss: 2782.3987 | g_Loss: 2011.2357 | l_Loss: 399.8580 | 
+21-12-22 21:03:40.842 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:03:40.843 - INFO: Train epoch 122:   Loss: 12575.9218 | r_Loss: 2744.5891 | g_Loss: 1904.6636 | l_Loss: 308.0145 | 
+21-12-22 21:04:52.803 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:04:52.803 - INFO: Train epoch 123:   Loss: 12814.6647 | r_Loss: 2743.1511 | g_Loss: 1955.9732 | l_Loss: 291.6477 | 
+21-12-22 21:06:04.722 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:06:04.723 - INFO: Train epoch 124:   Loss: 14915.0112 | r_Loss: 3222.7633 | g_Loss: 2270.0663 | l_Loss: 341.9163 | 
+21-12-22 21:07:16.678 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:07:16.679 - INFO: Train epoch 125:   Loss: 11573.1813 | r_Loss: 2620.3512 | g_Loss: 1731.1305 | l_Loss: 297.1779 | 
+21-12-22 21:08:28.660 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:08:28.661 - INFO: Train epoch 126:   Loss: 13091.2749 | r_Loss: 2902.8270 | g_Loss: 1971.6948 | l_Loss: 329.9736 | 
+21-12-22 21:09:40.519 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:09:40.520 - INFO: Train epoch 127:   Loss: 12052.0927 | r_Loss: 2727.2504 | g_Loss: 1800.3996 | l_Loss: 322.8440 | 
+21-12-22 21:10:52.504 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:10:52.504 - INFO: Train epoch 128:   Loss: 12619.7724 | r_Loss: 2767.9229 | g_Loss: 1890.8982 | l_Loss: 397.3584 | 
+21-12-22 21:12:04.514 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:12:04.514 - INFO: Train epoch 129:   Loss: 11980.8025 | r_Loss: 2695.4229 | g_Loss: 1791.9514 | l_Loss: 325.6227 | 
+21-12-22 21:13:16.614 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:13:16.615 - INFO: Train epoch 130:   Loss: 11367.0313 | r_Loss: 2569.9454 | g_Loss: 1699.9351 | l_Loss: 297.4106 | 
+21-12-22 21:14:28.554 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:14:28.555 - INFO: Train epoch 131:   Loss: 153057.9031 | r_Loss: 21148.5858 | g_Loss: 25922.1142 | l_Loss: 2298.7500 | 
+21-12-22 21:15:40.508 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:15:40.509 - INFO: Train epoch 132:   Loss: 26568.9323 | r_Loss: 9641.7427 | g_Loss: 3128.6491 | l_Loss: 1283.9438 | 
+21-12-22 21:16:52.486 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:16:52.486 - INFO: Train epoch 133:   Loss: 21816.5433 | r_Loss: 7345.8246 | g_Loss: 2696.2840 | l_Loss: 989.2988 | 
+21-12-22 21:18:04.344 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:18:04.344 - INFO: Train epoch 134:   Loss: 17683.9966 | r_Loss: 5917.6610 | g_Loss: 2219.3588 | l_Loss: 669.5414 | 
+21-12-22 21:19:16.484 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:19:16.484 - INFO: Train epoch 135:   Loss: 15724.2366 | r_Loss: 5162.4216 | g_Loss: 1977.8150 | l_Loss: 672.7402 | 
+21-12-22 21:20:28.369 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:20:28.370 - INFO: Train epoch 136:   Loss: 14803.4069 | r_Loss: 4561.9909 | g_Loss: 1939.7383 | l_Loss: 542.7245 | 
+21-12-22 21:21:40.201 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:21:40.202 - INFO: Train epoch 137:   Loss: 14500.0333 | r_Loss: 4277.5843 | g_Loss: 1935.3035 | l_Loss: 545.9314 | 
+21-12-22 21:22:52.235 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:22:52.236 - INFO: Train epoch 138:   Loss: 14151.8251 | r_Loss: 3919.8744 | g_Loss: 1932.1346 | l_Loss: 571.2779 | 
+21-12-22 21:24:04.104 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:24:04.105 - INFO: Train epoch 139:   Loss: 14036.5457 | r_Loss: 3714.1949 | g_Loss: 1949.6293 | l_Loss: 574.2039 | 
+21-12-22 21:25:16.058 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:25:16.059 - INFO: Train epoch 140:   Loss: 13167.4898 | r_Loss: 3459.4391 | g_Loss: 1862.5013 | l_Loss: 395.5444 | 
+21-12-22 21:26:28.009 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:26:28.010 - INFO: Train epoch 141:   Loss: 13768.2388 | r_Loss: 3555.1968 | g_Loss: 1946.7979 | l_Loss: 479.0525 | 
+21-12-22 21:27:39.922 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:27:39.923 - INFO: Train epoch 142:   Loss: 12731.8326 | r_Loss: 3287.8198 | g_Loss: 1812.6276 | l_Loss: 380.8750 | 
+21-12-22 21:28:51.863 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:28:51.863 - INFO: Train epoch 143:   Loss: 13741.3181 | r_Loss: 3219.7089 | g_Loss: 2029.7813 | l_Loss: 372.7031 | 
+21-12-22 21:30:03.746 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:30:03.746 - INFO: Train epoch 144:   Loss: 11677.5802 | r_Loss: 3072.1389 | g_Loss: 1642.8255 | l_Loss: 391.3137 | 
+21-12-22 21:31:15.728 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:31:15.728 - INFO: Train epoch 145:   Loss: 13175.8396 | r_Loss: 3107.9181 | g_Loss: 1940.9301 | l_Loss: 363.2711 | 
+21-12-22 21:32:27.614 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:32:27.614 - INFO: Train epoch 146:   Loss: 11668.8457 | r_Loss: 2827.7383 | g_Loss: 1703.5023 | l_Loss: 323.5960 | 
+21-12-22 21:33:39.534 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:33:39.535 - INFO: Train epoch 147:   Loss: 11387.6898 | r_Loss: 2770.7158 | g_Loss: 1654.1003 | l_Loss: 346.4726 | 
+21-12-22 21:34:51.451 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:34:51.452 - INFO: Train epoch 148:   Loss: 11241.4477 | r_Loss: 2774.2883 | g_Loss: 1628.7248 | l_Loss: 323.5353 | 
+21-12-22 21:36:03.506 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:36:03.507 - INFO: Train epoch 149:   Loss: 11857.5487 | r_Loss: 2705.2344 | g_Loss: 1757.1296 | l_Loss: 366.6663 | 
+21-12-22 21:37:49.077 - INFO: TEST:   PSNR_S: 30.0401 | PSNR_C: 27.2125 | 
+21-12-22 21:37:49.078 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:37:49.078 - INFO: Train epoch 150:   Loss: 10109.3984 | r_Loss: 2457.5742 | g_Loss: 1473.9373 | l_Loss: 282.1374 | 
+21-12-22 21:39:00.761 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:39:00.762 - INFO: Train epoch 151:   Loss: 12083.3736 | r_Loss: 2636.5949 | g_Loss: 1818.3451 | l_Loss: 355.0531 | 
+21-12-22 21:40:12.265 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:40:12.265 - INFO: Train epoch 152:   Loss: 11401.8536 | r_Loss: 2502.1409 | g_Loss: 1716.5796 | l_Loss: 316.8147 | 
+21-12-22 21:41:23.856 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:41:23.857 - INFO: Train epoch 153:   Loss: 10431.1598 | r_Loss: 2477.2819 | g_Loss: 1536.2734 | l_Loss: 272.5108 | 
+21-12-22 21:42:35.335 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:42:35.335 - INFO: Train epoch 154:   Loss: 11366.5958 | r_Loss: 2479.2515 | g_Loss: 1714.5349 | l_Loss: 314.6695 | 
+21-12-22 21:43:46.846 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:43:46.846 - INFO: Train epoch 155:   Loss: 10427.5536 | r_Loss: 2335.3958 | g_Loss: 1553.6620 | l_Loss: 323.8479 | 
+21-12-22 21:44:58.508 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:44:58.509 - INFO: Train epoch 156:   Loss: 10158.8200 | r_Loss: 2384.1641 | g_Loss: 1495.0311 | l_Loss: 299.5003 | 
+21-12-22 21:46:09.935 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:46:09.937 - INFO: Train epoch 157:   Loss: 9750.4756 | r_Loss: 2289.5608 | g_Loss: 1432.5681 | l_Loss: 298.0740 | 
+21-12-22 21:47:21.568 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:47:21.569 - INFO: Train epoch 158:   Loss: 10112.7539 | r_Loss: 2357.4700 | g_Loss: 1495.2955 | l_Loss: 278.8064 | 
+21-12-22 21:48:33.113 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:48:33.113 - INFO: Train epoch 159:   Loss: 10353.9041 | r_Loss: 2297.2995 | g_Loss: 1549.0748 | l_Loss: 311.2303 | 
+21-12-22 21:49:44.709 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:49:44.710 - INFO: Train epoch 160:   Loss: 9400.0015 | r_Loss: 2254.9525 | g_Loss: 1372.0443 | l_Loss: 284.8276 | 
+21-12-22 21:50:56.299 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:50:56.300 - INFO: Train epoch 161:   Loss: 9231.3387 | r_Loss: 2132.1035 | g_Loss: 1370.3484 | l_Loss: 247.4931 | 
+21-12-22 21:52:07.922 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:52:07.923 - INFO: Train epoch 162:   Loss: 10126.0316 | r_Loss: 2308.3611 | g_Loss: 1505.4462 | l_Loss: 290.4396 | 
+21-12-22 21:53:19.567 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:53:19.568 - INFO: Train epoch 163:   Loss: 8476.0053 | r_Loss: 2042.9946 | g_Loss: 1233.3927 | l_Loss: 266.0473 | 
+21-12-22 21:54:31.222 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:54:31.222 - INFO: Train epoch 164:   Loss: 9145.2572 | r_Loss: 2066.6966 | g_Loss: 1365.8818 | l_Loss: 249.1516 | 
+21-12-22 21:55:42.829 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:55:42.830 - INFO: Train epoch 165:   Loss: 8793.2883 | r_Loss: 2056.3526 | g_Loss: 1298.6873 | l_Loss: 243.4990 | 
+21-12-22 21:56:54.440 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:56:54.441 - INFO: Train epoch 166:   Loss: 20993.6458 | r_Loss: 3631.8276 | g_Loss: 3395.4360 | l_Loss: 384.6382 | 
+21-12-22 21:58:06.375 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:58:06.376 - INFO: Train epoch 167:   Loss: 17164.5957 | r_Loss: 5154.3174 | g_Loss: 2261.2553 | l_Loss: 704.0014 | 
+21-12-22 21:59:18.334 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 21:59:18.335 - INFO: Train epoch 168:   Loss: 10405.9059 | r_Loss: 3375.0306 | g_Loss: 1314.6944 | l_Loss: 457.4032 | 
+21-12-22 22:00:30.002 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:00:30.003 - INFO: Train epoch 169:   Loss: 9725.5509 | r_Loss: 2876.9022 | g_Loss: 1298.8499 | l_Loss: 354.3994 | 
+21-12-22 22:01:41.555 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:01:41.557 - INFO: Train epoch 170:   Loss: 8695.2549 | r_Loss: 2529.4026 | g_Loss: 1164.5558 | l_Loss: 343.0736 | 
+21-12-22 22:02:53.372 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:02:53.373 - INFO: Train epoch 171:   Loss: 8195.9290 | r_Loss: 2395.4719 | g_Loss: 1096.0586 | l_Loss: 320.1642 | 
+21-12-22 22:04:05.155 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:04:05.156 - INFO: Train epoch 172:   Loss: 8931.5243 | r_Loss: 2379.0117 | g_Loss: 1257.2123 | l_Loss: 266.4514 | 
+21-12-22 22:05:16.875 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:05:16.876 - INFO: Train epoch 173:   Loss: 7951.7283 | r_Loss: 2181.7680 | g_Loss: 1100.8653 | l_Loss: 265.6338 | 
+21-12-22 22:06:28.642 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:06:28.643 - INFO: Train epoch 174:   Loss: 8434.3090 | r_Loss: 2087.9266 | g_Loss: 1213.4428 | l_Loss: 279.1684 | 
+21-12-22 22:07:40.668 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:07:40.669 - INFO: Train epoch 175:   Loss: 7469.6696 | r_Loss: 1984.7773 | g_Loss: 1043.0773 | l_Loss: 269.5061 | 
+21-12-22 22:08:52.461 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:08:52.462 - INFO: Train epoch 176:   Loss: 7376.2131 | r_Loss: 1917.1701 | g_Loss: 1044.3765 | l_Loss: 237.1603 | 
+21-12-22 22:10:04.421 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:10:04.422 - INFO: Train epoch 177:   Loss: 7369.1734 | r_Loss: 1872.5814 | g_Loss: 1048.3791 | l_Loss: 254.6967 | 
+21-12-22 22:11:16.376 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:11:16.377 - INFO: Train epoch 178:   Loss: 260857.1239 | r_Loss: 34758.7546 | g_Loss: 44232.2272 | l_Loss: 4937.2243 | 
+21-12-22 22:12:28.354 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:12:28.354 - INFO: Train epoch 179:   Loss: 28152.0204 | r_Loss: 10423.5548 | g_Loss: 3261.2980 | l_Loss: 1421.9757 | 
+21-12-22 22:14:14.185 - INFO: TEST:   PSNR_S: 27.9124 | PSNR_C: 22.7089 | 
+21-12-22 22:14:14.186 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:14:14.186 - INFO: Train epoch 180:   Loss: 20223.5536 | r_Loss: 7535.9725 | g_Loss: 2365.8103 | l_Loss: 858.5298 | 
+21-12-22 22:15:26.091 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:15:26.092 - INFO: Train epoch 181:   Loss: 17685.6930 | r_Loss: 6537.2388 | g_Loss: 2051.1212 | l_Loss: 892.8479 | 
+21-12-22 22:16:38.060 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:16:38.061 - INFO: Train epoch 182:   Loss: 15731.1795 | r_Loss: 5684.9290 | g_Loss: 1862.0956 | l_Loss: 735.7723 | 
+21-12-22 22:17:49.928 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:17:49.928 - INFO: Train epoch 183:   Loss: 13936.3919 | r_Loss: 5198.1452 | g_Loss: 1601.4376 | l_Loss: 731.0585 | 
+21-12-22 22:19:01.785 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:19:01.785 - INFO: Train epoch 184:   Loss: 13343.9719 | r_Loss: 4594.5654 | g_Loss: 1630.8295 | l_Loss: 595.2589 | 
+21-12-22 22:20:13.813 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:20:13.813 - INFO: Train epoch 185:   Loss: 12075.0075 | r_Loss: 4014.3104 | g_Loss: 1515.7239 | l_Loss: 482.0779 | 
+21-12-22 22:21:25.727 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:21:25.727 - INFO: Train epoch 186:   Loss: 11096.0552 | r_Loss: 3999.1119 | g_Loss: 1314.8982 | l_Loss: 522.4521 | 
+21-12-22 22:22:37.608 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:22:37.608 - INFO: Train epoch 187:   Loss: 10748.5395 | r_Loss: 3596.2278 | g_Loss: 1326.7601 | l_Loss: 518.5114 | 
+21-12-22 22:23:49.590 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:23:49.590 - INFO: Train epoch 188:   Loss: 10528.2911 | r_Loss: 3383.1433 | g_Loss: 1340.4959 | l_Loss: 442.6680 | 
+21-12-22 22:25:01.535 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:25:01.536 - INFO: Train epoch 189:   Loss: 9977.2218 | r_Loss: 3284.1858 | g_Loss: 1259.7103 | l_Loss: 394.4847 | 
+21-12-22 22:26:13.466 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:26:13.467 - INFO: Train epoch 190:   Loss: 9999.0100 | r_Loss: 3032.5809 | g_Loss: 1315.2906 | l_Loss: 389.9760 | 
+21-12-22 22:27:25.302 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:27:25.302 - INFO: Train epoch 191:   Loss: 9507.4832 | r_Loss: 2937.5907 | g_Loss: 1239.7936 | l_Loss: 370.9246 | 
+21-12-22 22:28:37.175 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:28:37.176 - INFO: Train epoch 192:   Loss: 9290.9749 | r_Loss: 2858.5347 | g_Loss: 1218.4205 | l_Loss: 340.3376 | 
+21-12-22 22:29:48.997 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:29:48.997 - INFO: Train epoch 193:   Loss: 8557.4781 | r_Loss: 2662.7123 | g_Loss: 1104.2844 | l_Loss: 373.3438 | 
+21-12-22 22:31:00.692 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:31:00.693 - INFO: Train epoch 194:   Loss: 8260.1197 | r_Loss: 2543.7279 | g_Loss: 1073.7744 | l_Loss: 347.5198 | 
+21-12-22 22:32:12.481 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:32:12.481 - INFO: Train epoch 195:   Loss: 7968.7023 | r_Loss: 2407.7852 | g_Loss: 1057.6126 | l_Loss: 272.8542 | 
+21-12-22 22:33:24.296 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:33:24.296 - INFO: Train epoch 196:   Loss: 9668.4835 | r_Loss: 2709.9647 | g_Loss: 1323.3420 | l_Loss: 341.8088 | 
+21-12-22 22:34:36.208 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:34:36.210 - INFO: Train epoch 197:   Loss: 7584.2450 | r_Loss: 2428.9753 | g_Loss: 983.2439 | l_Loss: 239.0502 | 
+21-12-22 22:35:48.013 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:35:48.014 - INFO: Train epoch 198:   Loss: 8122.3154 | r_Loss: 2444.6574 | g_Loss: 1076.4419 | l_Loss: 295.4482 | 
+21-12-22 22:36:59.880 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:36:59.881 - INFO: Train epoch 199:   Loss: 7871.4775 | r_Loss: 2295.2394 | g_Loss: 1053.8641 | l_Loss: 306.9176 | 
+21-12-22 22:38:11.723 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:38:11.723 - INFO: Train epoch 200:   Loss: 7506.8081 | r_Loss: 2232.1525 | g_Loss: 999.0520 | l_Loss: 279.3957 | 
+21-12-22 22:39:23.652 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:39:23.653 - INFO: Train epoch 201:   Loss: 10355.6376 | r_Loss: 2686.1228 | g_Loss: 1468.8906 | l_Loss: 325.0616 | 
+21-12-22 22:40:35.554 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:40:35.555 - INFO: Train epoch 202:   Loss: 7213.8257 | r_Loss: 2422.0954 | g_Loss: 896.5640 | l_Loss: 308.9101 | 
+21-12-22 22:41:47.496 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:41:47.497 - INFO: Train epoch 203:   Loss: 7006.0121 | r_Loss: 2270.1539 | g_Loss: 887.6660 | l_Loss: 297.5281 | 
+21-12-22 22:42:59.405 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:42:59.405 - INFO: Train epoch 204:   Loss: 6613.7662 | r_Loss: 2058.7276 | g_Loss: 854.1419 | l_Loss: 284.3291 | 
+21-12-22 22:44:11.330 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:44:11.331 - INFO: Train epoch 205:   Loss: 6477.2133 | r_Loss: 2015.2777 | g_Loss: 839.0306 | l_Loss: 266.7824 | 
+21-12-22 22:45:23.286 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:45:23.287 - INFO: Train epoch 206:   Loss: 7017.6158 | r_Loss: 2071.7649 | g_Loss: 944.4041 | l_Loss: 223.8303 | 
+21-12-22 22:46:35.237 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:46:35.238 - INFO: Train epoch 207:   Loss: 6294.4180 | r_Loss: 1901.1697 | g_Loss: 829.3361 | l_Loss: 246.5676 | 
+21-12-22 22:47:47.175 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:47:47.175 - INFO: Train epoch 208:   Loss: 318688.2810 | r_Loss: 76999.6836 | g_Loss: 46665.8245 | l_Loss: 8359.4774 | 
+21-12-22 22:48:59.120 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:48:59.120 - INFO: Train epoch 209:   Loss: 37220.0410 | r_Loss: 16509.8942 | g_Loss: 3733.9525 | l_Loss: 2040.3844 | 
+21-12-22 22:50:44.815 - INFO: TEST:   PSNR_S: 28.0055 | PSNR_C: 21.7095 | 
+21-12-22 22:50:44.816 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:50:44.816 - INFO: Train epoch 210:   Loss: 25296.2641 | r_Loss: 10724.9305 | g_Loss: 2607.4682 | l_Loss: 1533.9922 | 
+21-12-22 22:51:56.736 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:51:56.736 - INFO: Train epoch 211:   Loss: 19998.1698 | r_Loss: 8048.4201 | g_Loss: 2201.5121 | l_Loss: 942.1892 | 
+21-12-22 22:53:08.598 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:53:08.599 - INFO: Train epoch 212:   Loss: 16356155.9448 | r_Loss: 290475.9205 | g_Loss: 3210019.5555 | l_Loss: 15582.1974 | 
+21-12-22 22:54:20.591 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:54:20.592 - INFO: Train epoch 213:   Loss: 485173.1156 | r_Loss: 149723.5105 | g_Loss: 62513.3905 | l_Loss: 22882.6554 | 
+21-12-22 22:55:32.480 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:55:32.480 - INFO: Train epoch 214:   Loss: 296655.6138 | r_Loss: 101776.2773 | g_Loss: 36463.4864 | l_Loss: 12561.9058 | 
+21-12-22 22:56:44.344 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:56:44.345 - INFO: Train epoch 215:   Loss: 196693.5850 | r_Loss: 68276.4258 | g_Loss: 23930.8153 | l_Loss: 8763.0820 | 
+21-12-22 22:57:56.252 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:57:56.252 - INFO: Train epoch 216:   Loss: 142519.2347 | r_Loss: 50261.9923 | g_Loss: 17197.7760 | l_Loss: 6268.3621 | 
+21-12-22 22:59:08.153 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 22:59:08.153 - INFO: Train epoch 217:   Loss: 116399.3428 | r_Loss: 41317.1180 | g_Loss: 14001.1953 | l_Loss: 5076.2483 | 
+21-12-22 23:00:20.084 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:00:20.084 - INFO: Train epoch 218:   Loss: 97622.2209 | r_Loss: 34708.5604 | g_Loss: 11564.2887 | l_Loss: 5092.2172 | 
+21-12-22 23:01:32.169 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:01:32.169 - INFO: Train epoch 219:   Loss: 80574.1048 | r_Loss: 27217.6677 | g_Loss: 9937.9180 | l_Loss: 3666.8469 | 
+21-12-22 23:02:44.100 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:02:44.100 - INFO: Train epoch 220:   Loss: 73058.6069 | r_Loss: 24076.3061 | g_Loss: 9228.2075 | l_Loss: 2841.2632 | 
+21-12-22 23:03:56.039 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:03:56.039 - INFO: Train epoch 221:   Loss: 63305.4026 | r_Loss: 20342.4619 | g_Loss: 8090.4730 | l_Loss: 2510.5760 | 
+21-12-22 23:05:08.076 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:05:08.077 - INFO: Train epoch 222:   Loss: 59256.0605 | r_Loss: 18502.3356 | g_Loss: 7643.9121 | l_Loss: 2534.1649 | 
+21-12-22 23:06:19.893 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:06:19.893 - INFO: Train epoch 223:   Loss: 52702.6927 | r_Loss: 16010.8567 | g_Loss: 6914.6416 | l_Loss: 2118.6283 | 
+21-12-22 23:07:31.899 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:07:31.900 - INFO: Train epoch 224:   Loss: 49100.3635 | r_Loss: 15198.0849 | g_Loss: 6381.8987 | l_Loss: 1992.7853 | 
+21-12-22 23:08:43.881 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:08:43.882 - INFO: Train epoch 225:   Loss: 47575.7043 | r_Loss: 14590.5826 | g_Loss: 6219.0061 | l_Loss: 1890.0916 | 
+21-12-22 23:09:55.835 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:09:55.835 - INFO: Train epoch 226:   Loss: 43915.9430 | r_Loss: 13452.6959 | g_Loss: 5765.0614 | l_Loss: 1637.9398 | 
+21-12-22 23:11:07.791 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:11:07.791 - INFO: Train epoch 227:   Loss: 43477.1537 | r_Loss: 13517.7257 | g_Loss: 5665.5662 | l_Loss: 1631.5975 | 
+21-12-22 23:12:19.703 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:12:19.703 - INFO: Train epoch 228:   Loss: 40644.4197 | r_Loss: 12611.7203 | g_Loss: 5305.0600 | l_Loss: 1507.3994 | 
+21-12-22 23:13:31.823 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:13:31.823 - INFO: Train epoch 229:   Loss: 43367.6341 | r_Loss: 12640.5584 | g_Loss: 5835.8925 | l_Loss: 1547.6136 | 
+21-12-22 23:14:43.750 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:14:43.750 - INFO: Train epoch 230:   Loss: 38841.8880 | r_Loss: 11995.4763 | g_Loss: 5116.9549 | l_Loss: 1261.6373 | 
+21-12-22 23:15:55.699 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:15:55.700 - INFO: Train epoch 231:   Loss: 37574.2473 | r_Loss: 11596.5421 | g_Loss: 4911.7888 | l_Loss: 1418.7609 | 
+21-12-22 23:17:07.566 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:17:07.567 - INFO: Train epoch 232:   Loss: 41148.0815 | r_Loss: 11821.8676 | g_Loss: 5549.3229 | l_Loss: 1579.6001 | 
+21-12-22 23:18:19.556 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:18:19.556 - INFO: Train epoch 233:   Loss: 35724.1842 | r_Loss: 10977.8349 | g_Loss: 4657.0187 | l_Loss: 1461.2563 | 
+21-12-22 23:19:31.444 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:19:31.444 - INFO: Train epoch 234:   Loss: 36877.4441 | r_Loss: 11084.5892 | g_Loss: 4885.5531 | l_Loss: 1365.0897 | 
+21-12-22 23:20:43.323 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:20:43.323 - INFO: Train epoch 235:   Loss: 37378.3702 | r_Loss: 10955.2792 | g_Loss: 5021.8655 | l_Loss: 1313.7633 | 
+21-12-22 23:21:55.189 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:21:55.189 - INFO: Train epoch 236:   Loss: 35682.0084 | r_Loss: 10844.4903 | g_Loss: 4694.2800 | l_Loss: 1366.1179 | 
+21-12-22 23:23:07.151 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:23:07.152 - INFO: Train epoch 237:   Loss: 32782.9121 | r_Loss: 10385.1061 | g_Loss: 4210.8551 | l_Loss: 1343.5303 | 
+21-12-22 23:24:18.999 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:24:19.000 - INFO: Train epoch 238:   Loss: 33814.2976 | r_Loss: 10203.8223 | g_Loss: 4472.5565 | l_Loss: 1247.6927 | 
+21-12-22 23:25:30.861 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:25:30.862 - INFO: Train epoch 239:   Loss: 33784.9310 | r_Loss: 10374.7283 | g_Loss: 4433.7007 | l_Loss: 1241.6988 | 
+21-12-22 23:27:16.567 - INFO: TEST:   PSNR_S: 25.2313 | PSNR_C: 21.3945 | 
+21-12-22 23:27:16.568 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:27:16.569 - INFO: Train epoch 240:   Loss: 33330.5516 | r_Loss: 10019.8823 | g_Loss: 4411.0040 | l_Loss: 1255.6492 | 
+21-12-22 23:28:28.365 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:28:28.366 - INFO: Train epoch 241:   Loss: 33261.5474 | r_Loss: 9526.5993 | g_Loss: 4512.6571 | l_Loss: 1171.6628 | 
+21-12-22 23:29:40.248 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:29:40.249 - INFO: Train epoch 242:   Loss: 35353.6446 | r_Loss: 9923.5511 | g_Loss: 4853.4422 | l_Loss: 1162.8822 | 
+21-12-22 23:30:52.071 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:30:52.071 - INFO: Train epoch 243:   Loss: 32346.1270 | r_Loss: 9930.9724 | g_Loss: 4237.4089 | l_Loss: 1228.1105 | 
+21-12-22 23:32:03.937 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:32:03.938 - INFO: Train epoch 244:   Loss: 30202.1777 | r_Loss: 9430.2957 | g_Loss: 3921.9381 | l_Loss: 1162.1913 | 
+21-12-22 23:33:15.730 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:33:15.731 - INFO: Train epoch 245:   Loss: 30991.7988 | r_Loss: 9320.6023 | g_Loss: 4098.6576 | l_Loss: 1177.9084 | 
+21-12-22 23:34:27.529 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:34:27.529 - INFO: Train epoch 246:   Loss: 33025.7210 | r_Loss: 9626.0362 | g_Loss: 4421.6954 | l_Loss: 1291.2078 | 
+21-12-22 23:35:39.423 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:35:39.423 - INFO: Train epoch 247:   Loss: 38868.8523 | r_Loss: 9308.6511 | g_Loss: 5695.7887 | l_Loss: 1081.2577 | 
+21-12-22 23:36:51.309 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:36:51.309 - INFO: Train epoch 248:   Loss: 30223.4276 | r_Loss: 9357.5339 | g_Loss: 3930.2882 | l_Loss: 1214.4525 | 
+21-12-22 23:38:03.129 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:38:03.129 - INFO: Train epoch 249:   Loss: 29526.3746 | r_Loss: 8946.4145 | g_Loss: 3880.8810 | l_Loss: 1175.5552 | 
+21-12-22 23:39:15.010 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:39:15.010 - INFO: Train epoch 250:   Loss: 29522.3144 | r_Loss: 8932.8795 | g_Loss: 3911.0775 | l_Loss: 1034.0469 | 
+21-12-22 23:40:26.961 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:40:26.962 - INFO: Train epoch 251:   Loss: 33959.3302 | r_Loss: 9187.2619 | g_Loss: 4695.3398 | l_Loss: 1295.3690 | 
+21-12-22 23:41:39.011 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:41:39.012 - INFO: Train epoch 252:   Loss: 29914.6573 | r_Loss: 8812.9355 | g_Loss: 4012.4347 | l_Loss: 1039.5487 | 
+21-12-22 23:42:51.013 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:42:51.013 - INFO: Train epoch 253:   Loss: 30179.4750 | r_Loss: 8913.8867 | g_Loss: 4029.2364 | l_Loss: 1119.4062 | 
+21-12-22 23:44:02.891 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:44:02.891 - INFO: Train epoch 254:   Loss: 30102.4033 | r_Loss: 8800.9074 | g_Loss: 4053.4485 | l_Loss: 1034.2531 | 
+21-12-22 23:45:14.785 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:45:14.785 - INFO: Train epoch 255:   Loss: 29027.6973 | r_Loss: 8653.7850 | g_Loss: 3876.1986 | l_Loss: 992.9193 | 
+21-12-22 23:46:26.741 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:46:26.741 - INFO: Train epoch 256:   Loss: 29141.0061 | r_Loss: 8413.1448 | g_Loss: 3922.0572 | l_Loss: 1117.5754 | 
+21-12-22 23:47:38.716 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:47:38.717 - INFO: Train epoch 257:   Loss: 28846.4665 | r_Loss: 8460.1701 | g_Loss: 3853.5795 | l_Loss: 1118.3988 | 
+21-12-22 23:48:50.566 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:48:50.567 - INFO: Train epoch 258:   Loss: 29710.5227 | r_Loss: 8469.1082 | g_Loss: 4021.4516 | l_Loss: 1134.1565 | 
+21-12-22 23:50:02.585 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:50:02.585 - INFO: Train epoch 259:   Loss: 27896.0012 | r_Loss: 8364.8101 | g_Loss: 3698.9704 | l_Loss: 1036.3389 | 
+21-12-22 23:51:14.593 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:51:14.594 - INFO: Train epoch 260:   Loss: 26786.8151 | r_Loss: 8202.2817 | g_Loss: 3499.7821 | l_Loss: 1085.6232 | 
+21-12-22 23:52:26.711 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:52:26.711 - INFO: Train epoch 261:   Loss: 29912.9254 | r_Loss: 8607.3411 | g_Loss: 4053.5729 | l_Loss: 1037.7202 | 
+21-12-22 23:53:38.607 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:53:38.608 - INFO: Train epoch 262:   Loss: 31990.6874 | r_Loss: 8410.3527 | g_Loss: 4515.6659 | l_Loss: 1002.0048 | 
+21-12-22 23:54:50.560 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:54:50.560 - INFO: Train epoch 263:   Loss: 28016.4844 | r_Loss: 8277.7443 | g_Loss: 3723.0460 | l_Loss: 1123.5099 | 
+21-12-22 23:56:02.485 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:56:02.486 - INFO: Train epoch 264:   Loss: 26881.6298 | r_Loss: 8097.0604 | g_Loss: 3544.4853 | l_Loss: 1062.1428 | 
+21-12-22 23:57:14.336 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:57:14.336 - INFO: Train epoch 265:   Loss: 27519.5763 | r_Loss: 8247.0236 | g_Loss: 3652.9412 | l_Loss: 1007.8465 | 
+21-12-22 23:58:26.155 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:58:26.156 - INFO: Train epoch 266:   Loss: 29045.1296 | r_Loss: 8099.1104 | g_Loss: 3994.3679 | l_Loss: 974.1800 | 
+21-12-22 23:59:37.874 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-22 23:59:37.875 - INFO: Train epoch 267:   Loss: 32425.0663 | r_Loss: 8330.3982 | g_Loss: 4604.1349 | l_Loss: 1073.9938 | 
+21-12-23 00:00:49.785 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:00:49.786 - INFO: Train epoch 268:   Loss: 31832.7883 | r_Loss: 8298.6226 | g_Loss: 4504.5371 | l_Loss: 1011.4798 | 
+21-12-23 00:02:01.635 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:02:01.635 - INFO: Train epoch 269:   Loss: 25283.5530 | r_Loss: 7768.8665 | g_Loss: 3294.2007 | l_Loss: 1043.6832 | 
+21-12-23 00:03:47.171 - INFO: TEST:   PSNR_S: 26.4845 | PSNR_C: 22.3635 | 
+21-12-23 00:03:47.172 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:03:47.173 - INFO: Train epoch 270:   Loss: 24940.4664 | r_Loss: 7810.1703 | g_Loss: 3234.0099 | l_Loss: 960.2467 | 
+21-12-23 00:04:59.068 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:04:59.069 - INFO: Train epoch 271:   Loss: 26433.9353 | r_Loss: 8004.5279 | g_Loss: 3503.0925 | l_Loss: 913.9447 | 
+21-12-23 00:06:11.023 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:06:11.023 - INFO: Train epoch 272:   Loss: 37823.2063 | r_Loss: 8313.3134 | g_Loss: 5676.1302 | l_Loss: 1129.2414 | 
+21-12-23 00:07:22.865 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:07:22.866 - INFO: Train epoch 273:   Loss: 25927.9129 | r_Loss: 8210.4238 | g_Loss: 3316.3547 | l_Loss: 1135.7156 | 
+21-12-23 00:08:34.757 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:08:34.758 - INFO: Train epoch 274:   Loss: 25154.1087 | r_Loss: 8023.3709 | g_Loss: 3233.5925 | l_Loss: 962.7753 | 
+21-12-23 00:09:46.560 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:09:46.561 - INFO: Train epoch 275:   Loss: 24383.8802 | r_Loss: 7756.3962 | g_Loss: 3146.6013 | l_Loss: 894.4779 | 
+21-12-23 00:10:58.531 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:10:58.532 - INFO: Train epoch 276:   Loss: 25655.9582 | r_Loss: 7674.9408 | g_Loss: 3410.9644 | l_Loss: 926.1956 | 
+21-12-23 00:12:10.384 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:12:10.385 - INFO: Train epoch 277:   Loss: 23848.1662 | r_Loss: 7479.8582 | g_Loss: 3100.4134 | l_Loss: 866.2407 | 
+21-12-23 00:13:22.459 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:13:22.460 - INFO: Train epoch 278:   Loss: 25165.8549 | r_Loss: 7480.3507 | g_Loss: 3326.8677 | l_Loss: 1051.1658 | 
+21-12-23 00:14:34.517 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:14:34.518 - INFO: Train epoch 279:   Loss: 27052.5182 | r_Loss: 7269.1677 | g_Loss: 3768.2325 | l_Loss: 942.1885 | 
+21-12-23 00:15:46.498 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:15:46.499 - INFO: Train epoch 280:   Loss: 24790.4353 | r_Loss: 7516.4600 | g_Loss: 3277.5702 | l_Loss: 886.1241 | 
+21-12-23 00:16:58.546 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:16:58.546 - INFO: Train epoch 281:   Loss: 27569.1877 | r_Loss: 7623.5946 | g_Loss: 3808.0570 | l_Loss: 905.3081 | 
+21-12-23 00:18:10.572 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:18:10.573 - INFO: Train epoch 282:   Loss: 110607.1827 | r_Loss: 28939.8343 | g_Loss: 15682.1208 | l_Loss: 3256.7449 | 
+21-12-23 00:19:22.489 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:19:22.490 - INFO: Train epoch 283:   Loss: 30429.8356 | r_Loss: 9965.2452 | g_Loss: 3845.6239 | l_Loss: 1236.4707 | 
+21-12-23 00:20:34.501 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:20:34.502 - INFO: Train epoch 284:   Loss: 27473.7874 | r_Loss: 8742.7148 | g_Loss: 3530.5307 | l_Loss: 1078.4193 | 
+21-12-23 00:21:46.455 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:21:46.455 - INFO: Train epoch 285:   Loss: 27334.5130 | r_Loss: 8474.3199 | g_Loss: 3537.5581 | l_Loss: 1172.4023 | 
+21-12-23 00:22:58.271 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:22:58.271 - INFO: Train epoch 286:   Loss: 25159.7466 | r_Loss: 8281.4039 | g_Loss: 3192.7659 | l_Loss: 914.5131 | 
+21-12-23 00:24:10.312 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:24:10.313 - INFO: Train epoch 287:   Loss: 24910.0437 | r_Loss: 7881.1415 | g_Loss: 3219.7054 | l_Loss: 930.3752 | 
+21-12-23 00:25:22.176 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:25:22.176 - INFO: Train epoch 288:   Loss: 23893.2264 | r_Loss: 7697.2618 | g_Loss: 3036.0643 | l_Loss: 1015.6432 | 
+21-12-23 00:26:33.996 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:26:33.997 - INFO: Train epoch 289:   Loss: 24718.5386 | r_Loss: 7692.4801 | g_Loss: 3199.8930 | l_Loss: 1026.5936 | 
+21-12-23 00:27:45.939 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:27:45.939 - INFO: Train epoch 290:   Loss: 23559.4226 | r_Loss: 7493.5462 | g_Loss: 3018.7371 | l_Loss: 972.1908 | 
+21-12-23 00:28:57.710 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:28:57.711 - INFO: Train epoch 291:   Loss: 23503.1714 | r_Loss: 7263.1288 | g_Loss: 3053.8667 | l_Loss: 970.7092 | 
+21-12-23 00:30:09.686 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:30:09.687 - INFO: Train epoch 292:   Loss: 22288.3211 | r_Loss: 7050.1085 | g_Loss: 2870.4958 | l_Loss: 885.7330 | 
+21-12-23 00:31:21.396 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:31:21.396 - INFO: Train epoch 293:   Loss: 22557.3284 | r_Loss: 7087.1750 | g_Loss: 2928.4786 | l_Loss: 827.7602 | 
+21-12-23 00:32:33.220 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:32:33.221 - INFO: Train epoch 294:   Loss: 22994.4687 | r_Loss: 7083.1813 | g_Loss: 3009.4356 | l_Loss: 864.1091 | 
+21-12-23 00:33:45.075 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:33:45.076 - INFO: Train epoch 295:   Loss: 22353.5265 | r_Loss: 6893.9204 | g_Loss: 2899.5301 | l_Loss: 961.9553 | 
+21-12-23 00:34:56.977 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:34:56.978 - INFO: Train epoch 296:   Loss: 22142.7202 | r_Loss: 6735.2985 | g_Loss: 2923.1697 | l_Loss: 791.5731 | 
+21-12-23 00:36:08.855 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:36:08.856 - INFO: Train epoch 297:   Loss: 23286.7130 | r_Loss: 6861.6527 | g_Loss: 3100.2424 | l_Loss: 923.8484 | 
+21-12-23 00:37:20.715 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:37:20.716 - INFO: Train epoch 298:   Loss: 37223.1082 | r_Loss: 7240.7138 | g_Loss: 5810.0692 | l_Loss: 932.0484 | 
+21-12-23 00:38:32.518 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:38:32.519 - INFO: Train epoch 299:   Loss: 22550.0774 | r_Loss: 7024.0438 | g_Loss: 2914.3119 | l_Loss: 954.4743 | 
+21-12-23 00:40:18.270 - INFO: TEST:   PSNR_S: 27.0598 | PSNR_C: 22.9168 | 
+21-12-23 00:40:18.271 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:40:18.271 - INFO: Train epoch 300:   Loss: 21950.5937 | r_Loss: 6937.4901 | g_Loss: 2822.5739 | l_Loss: 900.2341 | 
+21-12-23 00:41:30.096 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:41:30.097 - INFO: Train epoch 301:   Loss: 22007.4772 | r_Loss: 6888.8248 | g_Loss: 2837.2155 | l_Loss: 932.5750 | 
+21-12-23 00:42:41.860 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:42:41.861 - INFO: Train epoch 302:   Loss: 36509.1650 | r_Loss: 7374.6324 | g_Loss: 5651.3124 | l_Loss: 877.9711 | 
+21-12-23 00:43:53.700 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:43:53.700 - INFO: Train epoch 303:   Loss: 21657.5835 | r_Loss: 7125.0249 | g_Loss: 2728.2633 | l_Loss: 891.2424 | 
+21-12-23 00:45:05.575 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:45:05.577 - INFO: Train epoch 304:   Loss: 21593.6668 | r_Loss: 6983.2373 | g_Loss: 2747.1572 | l_Loss: 874.6432 | 
+21-12-23 00:46:17.676 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:46:17.676 - INFO: Train epoch 305:   Loss: 21703.0510 | r_Loss: 6921.9866 | g_Loss: 2780.1954 | l_Loss: 880.0872 | 
+21-12-23 00:47:29.625 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:47:29.626 - INFO: Train epoch 306:   Loss: 21953.0861 | r_Loss: 6876.9023 | g_Loss: 2844.7325 | l_Loss: 852.5212 | 
+21-12-23 00:48:41.548 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:48:41.549 - INFO: Train epoch 307:   Loss: 20932.2853 | r_Loss: 6526.5196 | g_Loss: 2699.2591 | l_Loss: 909.4705 | 
+21-12-23 00:49:53.378 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:49:53.379 - INFO: Train epoch 308:   Loss: 21116.0415 | r_Loss: 6538.6809 | g_Loss: 2735.0307 | l_Loss: 902.2069 | 
+21-12-23 00:51:05.251 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:51:05.251 - INFO: Train epoch 309:   Loss: 22796.5592 | r_Loss: 6405.9175 | g_Loss: 3130.2981 | l_Loss: 739.1513 | 
+21-12-23 00:52:17.046 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:52:17.046 - INFO: Train epoch 310:   Loss: 21013.2574 | r_Loss: 6688.0473 | g_Loss: 2690.3645 | l_Loss: 873.3874 | 
+21-12-23 00:53:28.932 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:53:28.932 - INFO: Train epoch 311:   Loss: 20700.1745 | r_Loss: 6432.3559 | g_Loss: 2701.3009 | l_Loss: 761.3139 | 
+21-12-23 00:54:40.908 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:54:40.909 - INFO: Train epoch 312:   Loss: 21684.7816 | r_Loss: 6270.7829 | g_Loss: 2924.6032 | l_Loss: 790.9827 | 
+21-12-23 00:55:52.769 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:55:52.769 - INFO: Train epoch 313:   Loss: 20430.3515 | r_Loss: 6223.6449 | g_Loss: 2687.9915 | l_Loss: 766.7489 | 
+21-12-23 00:57:04.539 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:57:04.540 - INFO: Train epoch 314:   Loss: 45189.1502 | r_Loss: 7303.6509 | g_Loss: 7417.8520 | l_Loss: 796.2392 | 
+21-12-23 00:58:16.456 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:58:16.456 - INFO: Train epoch 315:   Loss: 20252.2469 | r_Loss: 6841.4512 | g_Loss: 2510.4354 | l_Loss: 858.6190 | 
+21-12-23 00:59:28.195 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 00:59:28.196 - INFO: Train epoch 316:   Loss: 20034.3008 | r_Loss: 6740.4241 | g_Loss: 2490.0542 | l_Loss: 843.6061 | 
+21-12-23 01:00:40.098 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:00:40.099 - INFO: Train epoch 317:   Loss: 20020.9072 | r_Loss: 6731.3849 | g_Loss: 2503.3332 | l_Loss: 772.8562 | 
+21-12-23 01:01:51.932 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:01:51.933 - INFO: Train epoch 318:   Loss: 18795.2733 | r_Loss: 6454.8957 | g_Loss: 2304.1768 | l_Loss: 819.4934 | 
+21-12-23 01:03:03.825 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:03:03.826 - INFO: Train epoch 319:   Loss: 18898.0679 | r_Loss: 6304.1970 | g_Loss: 2363.1115 | l_Loss: 778.3133 | 
+21-12-23 01:04:15.625 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:04:15.626 - INFO: Train epoch 320:   Loss: 19736.1385 | r_Loss: 6336.4236 | g_Loss: 2515.0323 | l_Loss: 824.5532 | 
+21-12-23 01:05:27.452 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:05:27.453 - INFO: Train epoch 321:   Loss: 17250.8990 | r_Loss: 5879.1876 | g_Loss: 2141.3324 | l_Loss: 665.0494 | 
+21-12-23 01:06:39.308 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:06:39.309 - INFO: Train epoch 322:   Loss: 19973.4644 | r_Loss: 6271.9891 | g_Loss: 2593.7450 | l_Loss: 732.7504 | 
+21-12-23 01:07:51.063 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:07:51.064 - INFO: Train epoch 323:   Loss: 19149.2659 | r_Loss: 6139.4011 | g_Loss: 2456.6171 | l_Loss: 726.7792 | 
+21-12-23 01:09:02.778 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:09:02.778 - INFO: Train epoch 324:   Loss: 20056.5721 | r_Loss: 5965.4164 | g_Loss: 2671.6335 | l_Loss: 732.9882 | 
+21-12-23 01:10:14.580 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:10:14.581 - INFO: Train epoch 325:   Loss: 22249.0127 | r_Loss: 6141.0407 | g_Loss: 3060.8522 | l_Loss: 803.7111 | 
+21-12-23 01:11:26.511 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:11:26.511 - INFO: Train epoch 326:   Loss: 18392.0377 | r_Loss: 6171.1794 | g_Loss: 2292.0203 | l_Loss: 760.7570 | 
+21-12-23 01:12:38.265 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:12:38.265 - INFO: Train epoch 327:   Loss: 17189.1331 | r_Loss: 5804.0737 | g_Loss: 2139.5762 | l_Loss: 687.1784 | 
+21-12-23 01:13:50.047 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:13:50.048 - INFO: Train epoch 328:   Loss: 36749.3786 | r_Loss: 6688.9591 | g_Loss: 5845.1076 | l_Loss: 834.8820 | 
+21-12-23 01:15:01.957 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:15:01.958 - INFO: Train epoch 329:   Loss: 17083.5208 | r_Loss: 6617.9282 | g_Loss: 1933.8147 | l_Loss: 796.5191 | 
+21-12-23 01:16:47.684 - INFO: TEST:   PSNR_S: 28.9331 | PSNR_C: 23.3559 | 
+21-12-23 01:16:47.686 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:16:47.686 - INFO: Train epoch 330:   Loss: 16275.0314 | r_Loss: 6149.4920 | g_Loss: 1876.6092 | l_Loss: 742.4933 | 
+21-12-23 01:17:59.586 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:17:59.586 - INFO: Train epoch 331:   Loss: 16400.3199 | r_Loss: 5956.7668 | g_Loss: 1936.8623 | l_Loss: 759.2418 | 
+21-12-23 01:19:11.473 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:19:11.474 - INFO: Train epoch 332:   Loss: 16779.4268 | r_Loss: 6061.0683 | g_Loss: 1978.1575 | l_Loss: 827.5707 | 
+21-12-23 01:20:23.207 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:20:23.207 - INFO: Train epoch 333:   Loss: 16483.8184 | r_Loss: 5921.2417 | g_Loss: 1953.4058 | l_Loss: 795.5477 | 
+21-12-23 01:21:35.145 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:21:35.146 - INFO: Train epoch 334:   Loss: 16152.4714 | r_Loss: 5769.6935 | g_Loss: 1927.7513 | l_Loss: 744.0212 | 
+21-12-23 01:22:46.897 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:22:46.897 - INFO: Train epoch 335:   Loss: 16072.2029 | r_Loss: 5503.9425 | g_Loss: 1958.5561 | l_Loss: 775.4801 | 
+21-12-23 01:23:58.589 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:23:58.589 - INFO: Train epoch 336:   Loss: 15531.9900 | r_Loss: 5456.0943 | g_Loss: 1873.2148 | l_Loss: 709.8217 | 
+21-12-23 01:25:10.393 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:25:10.393 - INFO: Train epoch 337:   Loss: 16511.3959 | r_Loss: 5621.2523 | g_Loss: 2048.4508 | l_Loss: 647.8896 | 
+21-12-23 01:26:22.240 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:26:22.240 - INFO: Train epoch 338:   Loss: 25254.5085 | r_Loss: 5897.0637 | g_Loss: 3732.4790 | l_Loss: 695.0499 | 
+21-12-23 01:27:34.026 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:27:34.027 - INFO: Train epoch 339:   Loss: 17305.6172 | r_Loss: 5812.5284 | g_Loss: 2162.6737 | l_Loss: 679.7201 | 
+21-12-23 01:28:45.836 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:28:45.837 - INFO: Train epoch 340:   Loss: 15370.1355 | r_Loss: 5544.4636 | g_Loss: 1814.7220 | l_Loss: 752.0618 | 
+21-12-23 01:29:57.703 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:29:57.704 - INFO: Train epoch 341:   Loss: 17994.0434 | r_Loss: 5821.8792 | g_Loss: 2260.9857 | l_Loss: 867.2358 | 
+21-12-23 01:31:09.454 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:31:09.455 - INFO: Train epoch 342:   Loss: 14907.3081 | r_Loss: 5387.4571 | g_Loss: 1770.1059 | l_Loss: 669.3215 | 
+21-12-23 01:32:21.239 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:32:21.239 - INFO: Train epoch 343:   Loss: 15105.4968 | r_Loss: 5313.5861 | g_Loss: 1832.1390 | l_Loss: 631.2157 | 
+21-12-23 01:33:33.008 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:33:33.009 - INFO: Train epoch 344:   Loss: 15280.1007 | r_Loss: 5200.9836 | g_Loss: 1894.8067 | l_Loss: 605.0837 | 
+21-12-23 01:34:44.713 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:34:44.714 - INFO: Train epoch 345:   Loss: 24360.5750 | r_Loss: 5741.6536 | g_Loss: 3566.3423 | l_Loss: 787.2096 | 
+21-12-23 01:35:56.535 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:35:56.536 - INFO: Train epoch 346:   Loss: 15922.2618 | r_Loss: 5862.2866 | g_Loss: 1866.1090 | l_Loss: 729.4299 | 
+21-12-23 01:37:08.317 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:37:08.318 - INFO: Train epoch 347:   Loss: 14696.1419 | r_Loss: 5457.3837 | g_Loss: 1718.8337 | l_Loss: 644.5896 | 
+21-12-23 01:38:20.079 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:38:20.080 - INFO: Train epoch 348:   Loss: 15175.1455 | r_Loss: 5169.3856 | g_Loss: 1879.8152 | l_Loss: 606.6840 | 
+21-12-23 01:39:31.910 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:39:31.911 - INFO: Train epoch 349:   Loss: 15881.6981 | r_Loss: 5111.1638 | g_Loss: 2019.7915 | l_Loss: 671.5767 | 
+21-12-23 01:40:43.710 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:40:43.710 - INFO: Train epoch 350:   Loss: 14614.2115 | r_Loss: 5238.4374 | g_Loss: 1738.8292 | l_Loss: 681.6282 | 
+21-12-23 01:41:55.641 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:41:55.641 - INFO: Train epoch 351:   Loss: 16775.7723 | r_Loss: 5171.2568 | g_Loss: 2191.1424 | l_Loss: 648.8033 | 
+21-12-23 01:43:07.353 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:43:07.354 - INFO: Train epoch 352:   Loss: 14125.5992 | r_Loss: 5150.1672 | g_Loss: 1661.8090 | l_Loss: 666.3870 | 
+21-12-23 01:44:19.151 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:44:19.152 - INFO: Train epoch 353:   Loss: 21422.2970 | r_Loss: 5423.6455 | g_Loss: 3073.0584 | l_Loss: 633.3591 | 
+21-12-23 01:45:30.860 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:45:30.861 - INFO: Train epoch 354:   Loss: 15591.6053 | r_Loss: 5523.3497 | g_Loss: 1882.9169 | l_Loss: 653.6710 | 
+21-12-23 01:46:42.582 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:46:42.582 - INFO: Train epoch 355:   Loss: 14200.8528 | r_Loss: 5117.1998 | g_Loss: 1700.6044 | l_Loss: 580.6310 | 
+21-12-23 01:47:54.316 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:47:54.316 - INFO: Train epoch 356:   Loss: 18788.5635 | r_Loss: 5421.4153 | g_Loss: 2528.8590 | l_Loss: 722.8532 | 
+21-12-23 01:49:05.944 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:49:05.945 - INFO: Train epoch 357:   Loss: 13617.5169 | r_Loss: 5047.5662 | g_Loss: 1599.5479 | l_Loss: 572.2112 | 
+21-12-23 01:50:17.638 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:50:17.639 - INFO: Train epoch 358:   Loss: 14446.0879 | r_Loss: 5079.7533 | g_Loss: 1749.5595 | l_Loss: 618.5374 | 
+21-12-23 01:51:29.484 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:51:29.485 - INFO: Train epoch 359:   Loss: 14275.9589 | r_Loss: 4912.0642 | g_Loss: 1754.5438 | l_Loss: 591.1757 | 
+21-12-23 01:53:14.924 - INFO: TEST:   PSNR_S: 29.8297 | PSNR_C: 24.3808 | 
+21-12-23 01:53:14.925 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:53:14.925 - INFO: Train epoch 360:   Loss: 14839.4481 | r_Loss: 4829.6083 | g_Loss: 1903.8023 | l_Loss: 490.8283 | 
+21-12-23 01:54:26.624 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:54:26.624 - INFO: Train epoch 361:   Loss: 21345.2220 | r_Loss: 5208.5082 | g_Loss: 3092.9173 | l_Loss: 672.1274 | 
+21-12-23 01:55:38.440 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:55:38.440 - INFO: Train epoch 362:   Loss: 13974.5867 | r_Loss: 5154.1519 | g_Loss: 1623.0808 | l_Loss: 705.0309 | 
+21-12-23 01:56:50.179 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:56:50.179 - INFO: Train epoch 363:   Loss: 13414.7101 | r_Loss: 4949.1201 | g_Loss: 1562.8145 | l_Loss: 651.5174 | 
+21-12-23 01:58:01.915 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:58:01.916 - INFO: Train epoch 364:   Loss: 23651.8983 | r_Loss: 5365.5396 | g_Loss: 3528.0746 | l_Loss: 645.9854 | 
+21-12-23 01:59:13.680 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 01:59:13.681 - INFO: Train epoch 365:   Loss: 13859.2505 | r_Loss: 5198.8591 | g_Loss: 1593.1981 | l_Loss: 694.4010 | 
+21-12-23 02:00:25.533 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:00:25.534 - INFO: Train epoch 366:   Loss: 13309.0780 | r_Loss: 5030.2516 | g_Loss: 1525.4210 | l_Loss: 651.7215 | 
+21-12-23 02:01:37.417 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:01:37.417 - INFO: Train epoch 367:   Loss: 13121.3016 | r_Loss: 4787.7462 | g_Loss: 1548.1085 | l_Loss: 593.0129 | 
+21-12-23 02:02:49.297 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:02:49.297 - INFO: Train epoch 368:   Loss: 13176.3025 | r_Loss: 4767.8495 | g_Loss: 1558.4113 | l_Loss: 616.3964 | 
+21-12-23 02:04:01.144 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:04:01.145 - INFO: Train epoch 369:   Loss: 13649.4340 | r_Loss: 4791.4196 | g_Loss: 1656.5483 | l_Loss: 575.2729 | 
+21-12-23 02:05:12.938 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:05:12.939 - INFO: Train epoch 370:   Loss: 20549.5284 | r_Loss: 5097.4257 | g_Loss: 2972.2743 | l_Loss: 590.7311 | 
+21-12-23 02:06:24.726 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:06:24.727 - INFO: Train epoch 371:   Loss: 13562.2129 | r_Loss: 4958.6341 | g_Loss: 1592.0886 | l_Loss: 643.1357 | 
+21-12-23 02:07:36.661 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:07:36.661 - INFO: Train epoch 372:   Loss: 14645.4524 | r_Loss: 4793.2074 | g_Loss: 1858.9755 | l_Loss: 557.3675 | 
+21-12-23 02:08:48.388 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:08:48.389 - INFO: Train epoch 373:   Loss: 12612.9723 | r_Loss: 4660.8065 | g_Loss: 1481.8046 | l_Loss: 543.1428 | 
+21-12-23 02:10:00.095 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:10:00.095 - INFO: Train epoch 374:   Loss: 14367.0894 | r_Loss: 4642.2497 | g_Loss: 1827.4430 | l_Loss: 587.6247 | 
+21-12-23 02:11:11.752 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:11:11.752 - INFO: Train epoch 375:   Loss: 15571.2664 | r_Loss: 4664.3974 | g_Loss: 2065.9923 | l_Loss: 576.9074 | 
+21-12-23 02:12:23.436 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:12:23.436 - INFO: Train epoch 376:   Loss: 12429.7220 | r_Loss: 4628.5494 | g_Loss: 1440.2062 | l_Loss: 600.1414 | 
+21-12-23 02:13:35.236 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:13:35.237 - INFO: Train epoch 377:   Loss: 12666.3535 | r_Loss: 4477.5534 | g_Loss: 1521.1705 | l_Loss: 582.9472 | 
+21-12-23 02:14:46.872 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:14:46.872 - INFO: Train epoch 378:   Loss: 15778.2456 | r_Loss: 4374.2035 | g_Loss: 2163.2780 | l_Loss: 587.6522 | 
+21-12-23 02:15:58.716 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:15:58.717 - INFO: Train epoch 379:   Loss: 13257.6915 | r_Loss: 4616.3751 | g_Loss: 1618.1989 | l_Loss: 550.3217 | 
+21-12-23 02:17:10.412 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:17:10.413 - INFO: Train epoch 380:   Loss: 11552.0918 | r_Loss: 4286.0666 | g_Loss: 1355.0366 | l_Loss: 490.8421 | 
+21-12-23 02:18:22.141 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:18:22.141 - INFO: Train epoch 381:   Loss: 15743.7421 | r_Loss: 4606.6200 | g_Loss: 2119.5394 | l_Loss: 539.4252 | 
+21-12-23 02:19:33.884 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:19:33.884 - INFO: Train epoch 382:   Loss: 12209.1638 | r_Loss: 4268.7347 | g_Loss: 1476.8788 | l_Loss: 556.0352 | 
+21-12-23 02:20:45.532 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:20:45.532 - INFO: Train epoch 383:   Loss: 19493.1004 | r_Loss: 4436.5979 | g_Loss: 2906.1670 | l_Loss: 525.6672 | 
+21-12-23 02:21:57.259 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:21:57.260 - INFO: Train epoch 384:   Loss: 12666.3575 | r_Loss: 4746.9444 | g_Loss: 1459.0293 | l_Loss: 624.2665 | 
+21-12-23 02:23:09.009 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:23:09.009 - INFO: Train epoch 385:   Loss: 12412.3199 | r_Loss: 4511.6522 | g_Loss: 1447.9272 | l_Loss: 661.0319 | 
+21-12-23 02:24:20.694 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:24:20.694 - INFO: Train epoch 386:   Loss: 11236.3745 | r_Loss: 4265.4271 | g_Loss: 1290.8317 | l_Loss: 516.7889 | 
+21-12-23 02:25:32.324 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:25:32.325 - INFO: Train epoch 387:   Loss: 11405.3783 | r_Loss: 4133.0039 | g_Loss: 1357.1133 | l_Loss: 486.8080 | 
+21-12-23 02:26:44.174 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:26:44.174 - INFO: Train epoch 388:   Loss: 14206.5084 | r_Loss: 4214.5707 | g_Loss: 1896.3955 | l_Loss: 509.9602 | 
+21-12-23 02:27:55.853 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:27:55.853 - INFO: Train epoch 389:   Loss: 12798.5236 | r_Loss: 4268.9004 | g_Loss: 1599.4716 | l_Loss: 532.2650 | 
+21-12-23 02:29:41.453 - INFO: TEST:   PSNR_S: 30.2444 | PSNR_C: 24.6377 | 
+21-12-23 02:29:41.454 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:29:41.455 - INFO: Train epoch 390:   Loss: 26492.5751 | r_Loss: 5163.5157 | g_Loss: 4139.9431 | l_Loss: 629.3437 | 
+21-12-23 02:30:53.140 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:30:53.140 - INFO: Train epoch 391:   Loss: 11669.0579 | r_Loss: 4458.1491 | g_Loss: 1331.0785 | l_Loss: 555.5162 | 
+21-12-23 02:32:04.922 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:32:04.922 - INFO: Train epoch 392:   Loss: 11234.8184 | r_Loss: 4326.4149 | g_Loss: 1282.3501 | l_Loss: 496.6530 | 
+21-12-23 02:33:16.670 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:33:16.671 - INFO: Train epoch 393:   Loss: 11422.7090 | r_Loss: 4237.9353 | g_Loss: 1335.1783 | l_Loss: 508.8823 | 
+21-12-23 02:34:28.291 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:34:28.291 - INFO: Train epoch 394:   Loss: 11244.3117 | r_Loss: 4099.1840 | g_Loss: 1327.1188 | l_Loss: 509.5338 | 
+21-12-23 02:35:39.953 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:35:39.954 - INFO: Train epoch 395:   Loss: 11126.5678 | r_Loss: 3982.5186 | g_Loss: 1322.3259 | l_Loss: 532.4196 | 
+21-12-23 02:36:51.603 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:36:51.603 - INFO: Train epoch 396:   Loss: 20952.7730 | r_Loss: 4714.7699 | g_Loss: 3133.8375 | l_Loss: 568.8155 | 
+21-12-23 02:38:03.300 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:38:03.300 - INFO: Train epoch 397:   Loss: 10956.4181 | r_Loss: 4241.6536 | g_Loss: 1232.7605 | l_Loss: 550.9619 | 
+21-12-23 02:39:15.150 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:39:15.151 - INFO: Train epoch 398:   Loss: 10998.3049 | r_Loss: 4077.3556 | g_Loss: 1291.6715 | l_Loss: 462.5916 | 
+21-12-23 02:40:26.823 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:40:26.824 - INFO: Train epoch 399:   Loss: 10624.8870 | r_Loss: 3929.1426 | g_Loss: 1253.8797 | l_Loss: 426.3459 | 
+21-12-23 02:41:38.537 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:41:38.538 - INFO: Train epoch 400:   Loss: 10954.2412 | r_Loss: 3916.7600 | g_Loss: 1321.9163 | l_Loss: 427.8996 | 
+21-12-23 02:42:50.269 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:42:50.269 - INFO: Train epoch 401:   Loss: 11720.4431 | r_Loss: 3988.1445 | g_Loss: 1437.5689 | l_Loss: 544.4542 | 
+21-12-23 02:44:02.025 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:44:02.026 - INFO: Train epoch 402:   Loss: 11470.2733 | r_Loss: 3665.2225 | g_Loss: 1470.5415 | l_Loss: 452.3435 | 
+21-12-23 02:45:13.739 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:45:13.739 - INFO: Train epoch 403:   Loss: 11034.8915 | r_Loss: 3801.3666 | g_Loss: 1360.5381 | l_Loss: 430.8344 | 
+21-12-23 02:46:25.428 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:46:25.429 - INFO: Train epoch 404:   Loss: 11753.1652 | r_Loss: 3745.8827 | g_Loss: 1504.1179 | l_Loss: 486.6930 | 
+21-12-23 02:47:36.979 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:47:36.979 - INFO: Train epoch 405:   Loss: 10309.5302 | r_Loss: 3672.1870 | g_Loss: 1241.8019 | l_Loss: 428.3337 | 
+21-12-23 02:48:48.569 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:48:48.569 - INFO: Train epoch 406:   Loss: 11090.5613 | r_Loss: 3809.2497 | g_Loss: 1362.5489 | l_Loss: 468.5672 | 
+21-12-23 02:50:00.239 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:50:00.239 - INFO: Train epoch 407:   Loss: 35482.9791 | r_Loss: 5940.8085 | g_Loss: 5758.8128 | l_Loss: 748.1066 | 
+21-12-23 02:51:12.009 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:51:12.010 - INFO: Train epoch 408:   Loss: 11414.6707 | r_Loss: 4404.3054 | g_Loss: 1279.9127 | l_Loss: 610.8015 | 
+21-12-23 02:52:23.776 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:52:23.777 - INFO: Train epoch 409:   Loss: 10954.1838 | r_Loss: 4177.2390 | g_Loss: 1253.0599 | l_Loss: 511.6452 | 
+21-12-23 02:53:35.336 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:53:35.337 - INFO: Train epoch 410:   Loss: 10294.0424 | r_Loss: 4113.0410 | g_Loss: 1144.8300 | l_Loss: 456.8513 | 
+21-12-23 02:54:47.179 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:54:47.180 - INFO: Train epoch 411:   Loss: 9730.0686 | r_Loss: 3856.8166 | g_Loss: 1083.2366 | l_Loss: 457.0691 | 
+21-12-23 02:55:58.923 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:55:58.924 - INFO: Train epoch 412:   Loss: 9795.4695 | r_Loss: 3711.7440 | g_Loss: 1120.1334 | l_Loss: 483.0583 | 
+21-12-23 02:57:10.544 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:57:10.544 - INFO: Train epoch 413:   Loss: 10925.8177 | r_Loss: 3839.6706 | g_Loss: 1318.8606 | l_Loss: 491.8442 | 
+21-12-23 02:58:22.242 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:58:22.243 - INFO: Train epoch 414:   Loss: 9502.7316 | r_Loss: 3506.0428 | g_Loss: 1114.4190 | l_Loss: 424.5936 | 
+21-12-23 02:59:33.940 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 02:59:33.940 - INFO: Train epoch 415:   Loss: 9361.9698 | r_Loss: 3474.9199 | g_Loss: 1094.1546 | l_Loss: 416.2767 | 
+21-12-23 03:00:45.669 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:00:45.670 - INFO: Train epoch 416:   Loss: 10580.2208 | r_Loss: 3424.8232 | g_Loss: 1349.8672 | l_Loss: 406.0616 | 
+21-12-23 03:01:57.409 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:01:57.409 - INFO: Train epoch 417:   Loss: 11842.9808 | r_Loss: 3534.1054 | g_Loss: 1571.5621 | l_Loss: 451.0646 | 
+21-12-23 03:03:09.058 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:03:09.059 - INFO: Train epoch 418:   Loss: 10402.6159 | r_Loss: 3602.1109 | g_Loss: 1265.0401 | l_Loss: 475.3047 | 
+21-12-23 03:04:20.746 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:04:20.746 - INFO: Train epoch 419:   Loss: 10660.8961 | r_Loss: 3500.9599 | g_Loss: 1351.5335 | l_Loss: 402.2686 | 
+21-12-23 03:06:06.298 - INFO: TEST:   PSNR_S: 30.5967 | PSNR_C: 26.0113 | 
+21-12-23 03:06:06.299 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:06:06.299 - INFO: Train epoch 420:   Loss: 10367.7832 | r_Loss: 3391.9752 | g_Loss: 1308.2700 | l_Loss: 434.4581 | 
+21-12-23 03:07:17.979 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:07:17.980 - INFO: Train epoch 421:   Loss: 9705.6518 | r_Loss: 3379.5889 | g_Loss: 1181.8005 | l_Loss: 417.0603 | 
+21-12-23 03:08:29.546 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:08:29.547 - INFO: Train epoch 422:   Loss: 9560.5492 | r_Loss: 3232.3931 | g_Loss: 1179.1448 | l_Loss: 432.4323 | 
+21-12-23 03:09:41.253 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:09:41.254 - INFO: Train epoch 423:   Loss: 10189.3723 | r_Loss: 3208.9958 | g_Loss: 1307.3704 | l_Loss: 443.5246 | 
+21-12-23 03:10:52.918 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:10:52.919 - INFO: Train epoch 424:   Loss: 13181.7352 | r_Loss: 3425.2209 | g_Loss: 1873.9020 | l_Loss: 387.0043 | 
+21-12-23 03:12:04.618 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:12:04.618 - INFO: Train epoch 425:   Loss: 9408.1547 | r_Loss: 3367.3613 | g_Loss: 1104.9423 | l_Loss: 516.0815 | 
+21-12-23 03:13:16.235 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:13:16.236 - INFO: Train epoch 426:   Loss: 9106.8974 | r_Loss: 3142.7094 | g_Loss: 1116.2603 | l_Loss: 382.8862 | 
+21-12-23 03:14:27.788 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:14:27.789 - INFO: Train epoch 427:   Loss: 9419.1417 | r_Loss: 3218.8378 | g_Loss: 1154.9314 | l_Loss: 425.6471 | 
+21-12-23 03:15:39.402 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:15:39.402 - INFO: Train epoch 428:   Loss: 9141.0693 | r_Loss: 3130.9726 | g_Loss: 1119.3839 | l_Loss: 413.1773 | 
+21-12-23 03:16:51.016 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:16:51.016 - INFO: Train epoch 429:   Loss: 10455.6350 | r_Loss: 3106.2981 | g_Loss: 1400.2102 | l_Loss: 348.2860 | 
+21-12-23 03:18:02.849 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:18:02.849 - INFO: Train epoch 430:   Loss: 10399.3192 | r_Loss: 3020.0319 | g_Loss: 1404.1303 | l_Loss: 358.6359 | 
+21-12-23 03:19:14.432 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:19:14.432 - INFO: Train epoch 431:   Loss: 8679.0131 | r_Loss: 3061.6476 | g_Loss: 1035.3843 | l_Loss: 440.4441 | 
+21-12-23 03:20:26.047 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:20:26.048 - INFO: Train epoch 432:   Loss: 9699.3092 | r_Loss: 3090.5465 | g_Loss: 1226.7283 | l_Loss: 475.1210 | 
+21-12-23 03:21:37.665 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:21:37.665 - INFO: Train epoch 433:   Loss: 8745.0439 | r_Loss: 2916.1669 | g_Loss: 1093.2418 | l_Loss: 362.6679 | 
+21-12-23 03:22:49.424 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:22:49.425 - INFO: Train epoch 434:   Loss: 9485.0230 | r_Loss: 2897.1263 | g_Loss: 1246.4102 | l_Loss: 355.8458 | 
+21-12-23 03:24:01.080 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:24:01.081 - INFO: Train epoch 435:   Loss: 8658.5377 | r_Loss: 2812.6936 | g_Loss: 1104.5963 | l_Loss: 322.8624 | 
+21-12-23 03:25:12.670 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:25:12.671 - INFO: Train epoch 436:   Loss: 10065.2405 | r_Loss: 2979.4971 | g_Loss: 1342.6297 | l_Loss: 372.5948 | 
+21-12-23 03:26:24.321 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:26:24.321 - INFO: Train epoch 437:   Loss: 8700.3867 | r_Loss: 2992.3917 | g_Loss: 1069.4363 | l_Loss: 360.8136 | 
+21-12-23 03:27:35.918 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:27:35.919 - INFO: Train epoch 438:   Loss: 8923.5978 | r_Loss: 2906.8792 | g_Loss: 1139.3494 | l_Loss: 319.9717 | 
+21-12-23 03:28:47.695 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:28:47.695 - INFO: Train epoch 439:   Loss: 14685.0800 | r_Loss: 3319.8672 | g_Loss: 2194.7064 | l_Loss: 391.6807 | 
+21-12-23 03:29:59.505 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:29:59.505 - INFO: Train epoch 440:   Loss: 8202.1856 | r_Loss: 2984.8211 | g_Loss: 960.1211 | l_Loss: 416.7589 | 
+21-12-23 03:31:11.200 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:31:11.200 - INFO: Train epoch 441:   Loss: 8684.4565 | r_Loss: 3004.6178 | g_Loss: 1057.5804 | l_Loss: 391.9365 | 
+21-12-23 03:32:23.031 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:32:23.032 - INFO: Train epoch 442:   Loss: 8421.4715 | r_Loss: 2890.4307 | g_Loss: 1035.9770 | l_Loss: 351.1558 | 
+21-12-23 03:33:34.746 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:33:34.747 - INFO: Train epoch 443:   Loss: 8200.9959 | r_Loss: 2760.3290 | g_Loss: 1007.7055 | l_Loss: 402.1393 | 
+21-12-23 03:34:46.575 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:34:46.576 - INFO: Train epoch 444:   Loss: 12755.0547 | r_Loss: 3192.5577 | g_Loss: 1842.5013 | l_Loss: 349.9905 | 
+21-12-23 03:35:58.257 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:35:58.258 - INFO: Train epoch 445:   Loss: 7778.7741 | r_Loss: 2787.0343 | g_Loss: 925.4604 | l_Loss: 364.4379 | 
+21-12-23 03:37:10.005 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:37:10.005 - INFO: Train epoch 446:   Loss: 8074.3802 | r_Loss: 2769.8957 | g_Loss: 984.1166 | l_Loss: 383.9014 | 
+21-12-23 03:38:21.687 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:38:21.687 - INFO: Train epoch 447:   Loss: 9526.8055 | r_Loss: 2713.9801 | g_Loss: 1293.1829 | l_Loss: 346.9112 | 
+21-12-23 03:39:33.330 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:39:33.330 - INFO: Train epoch 448:   Loss: 7866.1437 | r_Loss: 2783.9809 | g_Loss: 953.6021 | l_Loss: 314.1524 | 
+21-12-23 03:40:45.105 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:40:45.105 - INFO: Train epoch 449:   Loss: 7903.0747 | r_Loss: 2548.7569 | g_Loss: 1010.6178 | l_Loss: 301.2286 | 
+21-12-23 03:42:30.545 - INFO: TEST:   PSNR_S: 32.5207 | PSNR_C: 27.1142 | 
+21-12-23 03:42:30.546 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:42:30.547 - INFO: Train epoch 450:   Loss: 8769.2354 | r_Loss: 2762.1883 | g_Loss: 1138.5454 | l_Loss: 314.3202 | 
+21-12-23 03:43:42.326 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:43:42.326 - INFO: Train epoch 451:   Loss: 7214.7866 | r_Loss: 2530.7021 | g_Loss: 875.4015 | l_Loss: 307.0771 | 
+21-12-23 03:44:54.070 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:44:54.071 - INFO: Train epoch 452:   Loss: 10778.9354 | r_Loss: 2817.3871 | g_Loss: 1527.0728 | l_Loss: 326.1841 | 
+21-12-23 03:46:05.941 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:46:05.942 - INFO: Train epoch 453:   Loss: 8413.8678 | r_Loss: 2894.5788 | g_Loss: 1037.7525 | l_Loss: 330.5265 | 
+21-12-23 03:47:17.659 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:47:17.659 - INFO: Train epoch 454:   Loss: 7444.6331 | r_Loss: 2572.8334 | g_Loss: 913.7081 | l_Loss: 303.2593 | 
+21-12-23 03:48:29.438 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:48:29.438 - INFO: Train epoch 455:   Loss: 7200.6897 | r_Loss: 2466.7895 | g_Loss: 870.6057 | l_Loss: 380.8715 | 
+21-12-23 03:49:41.093 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:49:41.093 - INFO: Train epoch 456:   Loss: 8534.9453 | r_Loss: 2520.4811 | g_Loss: 1139.7617 | l_Loss: 315.6556 | 
+21-12-23 03:50:52.862 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:50:52.863 - INFO: Train epoch 457:   Loss: 7321.0849 | r_Loss: 2501.7373 | g_Loss: 904.5652 | l_Loss: 296.5213 | 
+21-12-23 03:52:04.622 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:52:04.623 - INFO: Train epoch 458:   Loss: 7605.6561 | r_Loss: 2427.5458 | g_Loss: 978.1983 | l_Loss: 287.1190 | 
+21-12-23 03:53:16.089 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:53:16.090 - INFO: Train epoch 459:   Loss: 7721.3848 | r_Loss: 2453.4491 | g_Loss: 996.9978 | l_Loss: 282.9469 | 
+21-12-23 03:54:27.824 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:54:27.825 - INFO: Train epoch 460:   Loss: 7007.1259 | r_Loss: 2321.8965 | g_Loss: 875.4271 | l_Loss: 308.0939 | 
+21-12-23 03:55:39.580 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:55:39.581 - INFO: Train epoch 461:   Loss: 8823.8314 | r_Loss: 2445.2728 | g_Loss: 1209.1469 | l_Loss: 332.8241 | 
+21-12-23 03:56:51.242 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:56:51.243 - INFO: Train epoch 462:   Loss: 7280.8016 | r_Loss: 2382.7776 | g_Loss: 918.4256 | l_Loss: 305.8960 | 
+21-12-23 03:58:02.968 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:58:02.968 - INFO: Train epoch 463:   Loss: 6643.5540 | r_Loss: 2246.5058 | g_Loss: 814.8903 | l_Loss: 322.5969 | 
+21-12-23 03:59:14.652 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 03:59:14.652 - INFO: Train epoch 464:   Loss: 25558.2799 | r_Loss: 5162.1808 | g_Loss: 3958.9579 | l_Loss: 601.3097 | 
+21-12-23 04:00:26.420 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:00:26.420 - INFO: Train epoch 465:   Loss: 8021.1324 | r_Loss: 3162.9856 | g_Loss: 896.7169 | l_Loss: 374.5624 | 
+21-12-23 04:01:38.106 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:01:38.106 - INFO: Train epoch 466:   Loss: 7416.3237 | r_Loss: 2870.8118 | g_Loss: 848.9422 | l_Loss: 300.8009 | 
+21-12-23 04:02:49.798 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:02:49.799 - INFO: Train epoch 467:   Loss: 7275.7177 | r_Loss: 2726.8007 | g_Loss: 843.5767 | l_Loss: 331.0334 | 
+21-12-23 04:04:01.547 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:04:01.548 - INFO: Train epoch 468:   Loss: 7389.3110 | r_Loss: 2640.6350 | g_Loss: 873.2954 | l_Loss: 382.1992 | 
+21-12-23 04:05:13.329 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:05:13.330 - INFO: Train epoch 469:   Loss: 7627.2383 | r_Loss: 2686.7852 | g_Loss: 920.7403 | l_Loss: 336.7519 | 
+21-12-23 04:06:25.116 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:06:25.116 - INFO: Train epoch 470:   Loss: 8238.7661 | r_Loss: 2543.4272 | g_Loss: 1072.0579 | l_Loss: 335.0494 | 
+21-12-23 04:07:36.823 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:07:36.824 - INFO: Train epoch 471:   Loss: 7073.0487 | r_Loss: 2453.7339 | g_Loss: 864.3529 | l_Loss: 297.5501 | 
+21-12-23 04:08:48.517 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:08:48.517 - INFO: Train epoch 472:   Loss: 6479.1092 | r_Loss: 2260.0638 | g_Loss: 797.2865 | l_Loss: 232.6128 | 
+21-12-23 04:10:00.254 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:10:00.255 - INFO: Train epoch 473:   Loss: 9870.5615 | r_Loss: 2427.2520 | g_Loss: 1428.5164 | l_Loss: 300.7273 | 
+21-12-23 04:11:12.117 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:11:12.118 - INFO: Train epoch 474:   Loss: 7002.3957 | r_Loss: 2552.5949 | g_Loss: 832.7738 | l_Loss: 285.9317 | 
+21-12-23 04:12:23.871 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:12:23.872 - INFO: Train epoch 475:   Loss: 6834.8962 | r_Loss: 2373.8888 | g_Loss: 824.5074 | l_Loss: 338.4704 | 
+21-12-23 04:13:35.695 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:13:35.695 - INFO: Train epoch 476:   Loss: 6752.7770 | r_Loss: 2324.4938 | g_Loss: 831.7957 | l_Loss: 269.3047 | 
+21-12-23 04:14:47.388 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:14:47.388 - INFO: Train epoch 477:   Loss: 6160.4993 | r_Loss: 2106.5983 | g_Loss: 761.8698 | l_Loss: 244.5522 | 
+21-12-23 04:15:59.051 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:15:59.051 - INFO: Train epoch 478:   Loss: 7272.7048 | r_Loss: 2234.5346 | g_Loss: 952.6600 | l_Loss: 274.8701 | 
+21-12-23 04:17:10.657 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:17:10.657 - INFO: Train epoch 479:   Loss: 6016.2310 | r_Loss: 2130.5388 | g_Loss: 725.6513 | l_Loss: 257.4357 | 
+21-12-23 04:18:56.346 - INFO: TEST:   PSNR_S: 33.1542 | PSNR_C: 27.6782 | 
+21-12-23 04:18:56.347 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:18:56.347 - INFO: Train epoch 480:   Loss: 9724.5515 | r_Loss: 2518.2101 | g_Loss: 1376.2782 | l_Loss: 324.9508 | 
+21-12-23 04:20:08.058 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:20:08.059 - INFO: Train epoch 481:   Loss: 6919.2375 | r_Loss: 2368.0789 | g_Loss: 831.4278 | l_Loss: 394.0195 | 
+21-12-23 04:21:19.836 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:21:19.837 - INFO: Train epoch 482:   Loss: 6204.2054 | r_Loss: 2167.0514 | g_Loss: 738.4867 | l_Loss: 344.7207 | 
+21-12-23 04:22:31.642 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:22:31.642 - INFO: Train epoch 483:   Loss: 6340.0248 | r_Loss: 2193.9803 | g_Loss: 777.2485 | l_Loss: 259.8021 | 
+21-12-23 04:23:43.365 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:23:43.365 - INFO: Train epoch 484:   Loss: 5872.2413 | r_Loss: 1957.3414 | g_Loss: 734.5748 | l_Loss: 242.0258 | 
+21-12-23 04:24:54.992 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:24:54.992 - INFO: Train epoch 485:   Loss: 6674.4973 | r_Loss: 2072.8166 | g_Loss: 867.8152 | l_Loss: 262.6050 | 
+21-12-23 04:26:06.783 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:26:06.783 - INFO: Train epoch 486:   Loss: 6413.0732 | r_Loss: 1942.0373 | g_Loss: 839.3889 | l_Loss: 274.0916 | 
+21-12-23 04:27:18.565 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:27:18.565 - INFO: Train epoch 487:   Loss: 5771.1652 | r_Loss: 1903.9559 | g_Loss: 723.5073 | l_Loss: 249.6730 | 
+21-12-23 04:28:30.324 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:28:30.324 - INFO: Train epoch 488:   Loss: 6320.0959 | r_Loss: 1949.4927 | g_Loss: 822.0010 | l_Loss: 260.5980 | 
+21-12-23 04:29:42.083 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:29:42.083 - INFO: Train epoch 489:   Loss: 5858.4408 | r_Loss: 1853.6124 | g_Loss: 760.5309 | l_Loss: 202.1738 | 
+21-12-23 04:30:53.983 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:30:53.983 - INFO: Train epoch 490:   Loss: 6055.2920 | r_Loss: 1870.4032 | g_Loss: 793.8156 | l_Loss: 215.8109 | 
+21-12-23 04:32:05.765 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:32:05.766 - INFO: Train epoch 491:   Loss: 6664.4012 | r_Loss: 1958.4647 | g_Loss: 897.4886 | l_Loss: 218.4935 | 
+21-12-23 04:33:17.566 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:33:17.567 - INFO: Train epoch 492:   Loss: 5568.6590 | r_Loss: 1854.8614 | g_Loss: 699.6046 | l_Loss: 215.7745 | 
+21-12-23 04:34:29.250 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:34:29.250 - INFO: Train epoch 493:   Loss: 6944.8521 | r_Loss: 1942.6610 | g_Loss: 952.0167 | l_Loss: 242.1076 | 
+21-12-23 04:35:40.955 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:35:40.956 - INFO: Train epoch 494:   Loss: 5789.7048 | r_Loss: 1927.3347 | g_Loss: 722.1743 | l_Loss: 251.4986 | 
+21-12-23 04:36:52.884 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:36:52.885 - INFO: Train epoch 495:   Loss: 5788.8558 | r_Loss: 1888.2412 | g_Loss: 733.8262 | l_Loss: 231.4836 | 
+21-12-23 04:38:04.637 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:38:04.637 - INFO: Train epoch 496:   Loss: 5885.0661 | r_Loss: 1807.1582 | g_Loss: 773.5281 | l_Loss: 210.2673 | 
+21-12-23 04:39:16.422 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:39:16.423 - INFO: Train epoch 497:   Loss: 5688.9253 | r_Loss: 1834.2997 | g_Loss: 723.6805 | l_Loss: 236.2232 | 
+21-12-23 04:40:28.022 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:40:28.022 - INFO: Train epoch 498:   Loss: 6494.9683 | r_Loss: 1858.5022 | g_Loss: 885.9756 | l_Loss: 206.5881 | 
+21-12-23 04:41:39.598 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:41:39.599 - INFO: Train epoch 499:   Loss: 5312.2237 | r_Loss: 1791.8323 | g_Loss: 656.5604 | l_Loss: 237.5894 | 
+21-12-23 04:42:51.444 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:42:51.445 - INFO: Train epoch 500:   Loss: 5443.4818 | r_Loss: 1724.8783 | g_Loss: 704.4543 | l_Loss: 196.3318 | 
+21-12-23 04:44:03.151 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:44:03.152 - INFO: Train epoch 501:   Loss: 5421.3279 | r_Loss: 1748.3725 | g_Loss: 696.4048 | l_Loss: 190.9315 | 
+21-12-23 04:45:14.852 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:45:14.853 - INFO: Train epoch 502:   Loss: 5695.0684 | r_Loss: 1692.6523 | g_Loss: 755.1905 | l_Loss: 226.4637 | 
+21-12-23 04:46:26.554 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:46:26.555 - INFO: Train epoch 503:   Loss: 5830.2503 | r_Loss: 1841.8773 | g_Loss: 753.4787 | l_Loss: 220.9793 | 
+21-12-23 04:47:38.407 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:47:38.407 - INFO: Train epoch 504:   Loss: 5560.3546 | r_Loss: 1711.8192 | g_Loss: 727.0392 | l_Loss: 213.3392 | 
+21-12-23 04:48:50.140 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:48:50.140 - INFO: Train epoch 505:   Loss: 5220.4477 | r_Loss: 1662.7969 | g_Loss: 674.5196 | l_Loss: 185.0526 | 
+21-12-23 04:50:01.794 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:50:01.794 - INFO: Train epoch 506:   Loss: 5048.8368 | r_Loss: 1535.9554 | g_Loss: 666.9926 | l_Loss: 177.9186 | 
+21-12-23 04:51:13.329 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:51:13.329 - INFO: Train epoch 507:   Loss: 78825545657348880.0000 | r_Loss: 1203295664.3973 | g_Loss: 15765109681171420.0000 | l_Loss: 53101508.2087 | 
+21-12-23 04:52:25.114 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:52:25.114 - INFO: Train epoch 508:   Loss: 89760514918.4000 | r_Loss: 1609844.7737 | g_Loss: 17951746805.7600 | l_Loss: 170768.1112 | 
+21-12-23 04:53:36.808 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:53:36.809 - INFO: Train epoch 509:   Loss: 13351978071.0400 | r_Loss: 1380072.8700 | g_Loss: 2670085977.6000 | l_Loss: 168119.2546 | 
+21-12-23 04:55:22.307 - INFO: TEST:   PSNR_S: -30.5618 | PSNR_C: -0.5705 | 
+21-12-23 04:55:22.308 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:55:22.308 - INFO: Train epoch 510:   Loss: 9578494274.5600 | r_Loss: 1455827.4512 | g_Loss: 1915367184.6400 | l_Loss: 202430.6602 | 
+21-12-23 04:56:34.034 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:56:34.034 - INFO: Train epoch 511:   Loss: 7285151687.6800 | r_Loss: 1426894.7788 | g_Loss: 1456707645.4400 | l_Loss: 186589.9700 | 
+21-12-23 04:57:45.729 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:57:45.730 - INFO: Train epoch 512:   Loss: 6259058437.1200 | r_Loss: 1507723.7737 | g_Loss: 1251471107.2000 | l_Loss: 195144.1238 | 
+21-12-23 04:58:57.387 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 04:58:57.387 - INFO: Train epoch 513:   Loss: 5284519936.0000 | r_Loss: 1418807.6963 | g_Loss: 1056585367.0400 | l_Loss: 174314.2737 | 
+21-12-23 05:00:09.068 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:00:09.068 - INFO: Train epoch 514:   Loss: 4585196756.4800 | r_Loss: 1353128.9375 | g_Loss: 916730558.0800 | l_Loss: 190783.1759 | 
+21-12-23 05:01:20.679 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:01:20.680 - INFO: Train epoch 515:   Loss: 4505471139.8400 | r_Loss: 1511752.7988 | g_Loss: 900759932.1600 | l_Loss: 159722.8573 | 
+21-12-23 05:02:32.204 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:02:32.205 - INFO: Train epoch 516:   Loss: 4021383037.4400 | r_Loss: 1420848.4400 | g_Loss: 803957783.0400 | l_Loss: 173237.3057 | 
+21-12-23 05:03:43.870 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:03:43.871 - INFO: Train epoch 517:   Loss: 3717954951.6800 | r_Loss: 1443600.4825 | g_Loss: 743266588.1600 | l_Loss: 178435.0941 | 
+21-12-23 05:04:55.451 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:04:55.451 - INFO: Train epoch 518:   Loss: 3709898250.2400 | r_Loss: 1515585.1763 | g_Loss: 741640915.2000 | l_Loss: 178057.6409 | 
+21-12-23 05:06:06.902 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:06:06.903 - INFO: Train epoch 519:   Loss: 3344384803.8400 | r_Loss: 1422321.3000 | g_Loss: 668560216.3200 | l_Loss: 161423.5355 | 
+21-12-23 05:07:18.474 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:07:18.474 - INFO: Train epoch 520:   Loss: 3129837073.9200 | r_Loss: 1450231.0037 | g_Loss: 625646471.6800 | l_Loss: 154497.8175 | 
+21-12-23 05:08:30.072 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:08:30.072 - INFO: Train epoch 521:   Loss: 2848975160.3200 | r_Loss: 1356461.8525 | g_Loss: 569495344.0000 | l_Loss: 141961.3315 | 
+21-12-23 05:09:41.660 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:09:41.660 - INFO: Train epoch 522:   Loss: 2740289134.0800 | r_Loss: 1418609.5200 | g_Loss: 547740353.2800 | l_Loss: 168755.0709 | 
+21-12-23 05:10:53.197 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:10:53.198 - INFO: Train epoch 523:   Loss: 2686676551.6800 | r_Loss: 1491146.0875 | g_Loss: 537006122.5600 | l_Loss: 154782.8391 | 
+21-12-23 05:12:04.818 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:12:04.819 - INFO: Train epoch 524:   Loss: 2593800084.4800 | r_Loss: 1482650.5312 | g_Loss: 518430753.9200 | l_Loss: 163691.3444 | 
+21-12-23 05:13:16.319 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:13:16.320 - INFO: Train epoch 525:   Loss: 2469694448.6400 | r_Loss: 1436760.3587 | g_Loss: 493614819.2000 | l_Loss: 183579.1839 | 
+21-12-23 05:14:27.782 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:14:27.783 - INFO: Train epoch 526:   Loss: 2461043630.0800 | r_Loss: 1557566.7488 | g_Loss: 491854680.6400 | l_Loss: 212670.9609 | 
+21-12-23 05:15:39.482 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:15:39.483 - INFO: Train epoch 527:   Loss: 2342671831.0400 | r_Loss: 1512593.9013 | g_Loss: 468190960.3200 | l_Loss: 204414.3314 | 
+21-12-23 05:16:50.988 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:16:50.989 - INFO: Train epoch 528:   Loss: 2260056396.8000 | r_Loss: 1442587.4688 | g_Loss: 451692565.1200 | l_Loss: 150994.9207 | 
+21-12-23 05:18:02.541 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:18:02.542 - INFO: Train epoch 529:   Loss: 2142793139.2000 | r_Loss: 1438110.4175 | g_Loss: 428232579.2000 | l_Loss: 192140.8879 | 
+21-12-23 05:19:14.115 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:19:14.115 - INFO: Train epoch 530:   Loss: 2026425880.3200 | r_Loss: 1449491.5050 | g_Loss: 404960872.3200 | l_Loss: 172023.7397 | 
+21-12-23 05:20:25.691 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:20:25.691 - INFO: Train epoch 531:   Loss: 1971024861.4400 | r_Loss: 1440213.8650 | g_Loss: 393877263.3600 | l_Loss: 198324.8710 | 
+21-12-23 05:21:37.401 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:21:37.402 - INFO: Train epoch 532:   Loss: 1859539727.3600 | r_Loss: 1433838.6925 | g_Loss: 371589333.4400 | l_Loss: 159231.1795 | 
+21-12-23 05:22:49.227 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:22:49.228 - INFO: Train epoch 533:   Loss: 1873340600.3200 | r_Loss: 1508036.5513 | g_Loss: 374335927.3600 | l_Loss: 152942.5454 | 
+21-12-23 05:24:01.011 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:24:01.012 - INFO: Train epoch 534:   Loss: 1383228807.6800 | r_Loss: 1316760.4625 | g_Loss: 276351008.3200 | l_Loss: 157015.5646 | 
+21-12-23 05:25:12.827 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:25:12.828 - INFO: Train epoch 535:   Loss: 864557076.4800 | r_Loss: 1506813.3250 | g_Loss: 172574098.7200 | l_Loss: 179770.0672 | 
+21-12-23 05:26:24.385 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:26:24.385 - INFO: Train epoch 536:   Loss: 592266478.7200 | r_Loss: 1457797.4975 | g_Loss: 118129790.6400 | l_Loss: 159722.1018 | 
+21-12-23 05:27:35.942 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:27:35.942 - INFO: Train epoch 537:   Loss: 577308040.3200 | r_Loss: 1407351.4788 | g_Loss: 115145084.6400 | l_Loss: 175271.5176 | 
+21-12-23 05:28:47.589 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:28:47.590 - INFO: Train epoch 538:   Loss: 544920802.7200 | r_Loss: 1372597.0762 | g_Loss: 108674113.0400 | l_Loss: 177629.2521 | 
+21-12-23 05:29:59.124 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:29:59.124 - INFO: Train epoch 539:   Loss: 624942969.6000 | r_Loss: 1449852.9463 | g_Loss: 124667199.5200 | l_Loss: 157123.2663 | 
+21-12-23 05:31:44.560 - INFO: TEST:   PSNR_S: -18.5014 | PSNR_C: -0.3992 | 
+21-12-23 05:31:44.561 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:31:44.561 - INFO: Train epoch 540:   Loss: 543863113.1200 | r_Loss: 1398406.0362 | g_Loss: 108453731.0800 | l_Loss: 196055.9570 | 
+21-12-23 05:32:56.171 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:32:56.172 - INFO: Train epoch 541:   Loss: 453131077.7600 | r_Loss: 1253228.2075 | g_Loss: 90346256.7600 | l_Loss: 146557.6797 | 
+21-12-23 05:34:07.746 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:34:07.746 - INFO: Train epoch 542:   Loss: 583447247.8400 | r_Loss: 1434548.1238 | g_Loss: 116372927.5600 | l_Loss: 148067.0249 | 
+21-12-23 05:35:19.328 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:35:19.329 - INFO: Train epoch 543:   Loss: 529525024.6400 | r_Loss: 1403104.2650 | g_Loss: 105591454.0000 | l_Loss: 164647.5010 | 
+21-12-23 05:36:30.949 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:36:30.949 - INFO: Train epoch 544:   Loss: 509937079.6800 | r_Loss: 1368076.1087 | g_Loss: 101684614.0800 | l_Loss: 145932.9205 | 
+21-12-23 05:37:42.570 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:37:42.570 - INFO: Train epoch 545:   Loss: 501165195.8400 | r_Loss: 1382004.6200 | g_Loss: 99921858.2000 | l_Loss: 173899.0923 | 
+21-12-23 05:38:54.261 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:38:54.262 - INFO: Train epoch 546:   Loss: 459029931.8400 | r_Loss: 1290544.7775 | g_Loss: 91518765.2400 | l_Loss: 145556.0534 | 
+21-12-23 05:40:05.942 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:40:05.942 - INFO: Train epoch 547:   Loss: 454608742.8800 | r_Loss: 1321348.1638 | g_Loss: 90623058.4800 | l_Loss: 172106.0782 | 
+21-12-23 05:41:17.561 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:41:17.561 - INFO: Train epoch 548:   Loss: 499533592.6400 | r_Loss: 1362458.9187 | g_Loss: 99601021.4400 | l_Loss: 166026.6384 | 
+21-12-23 05:42:29.197 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:42:29.198 - INFO: Train epoch 549:   Loss: 505851523.3600 | r_Loss: 1356125.0962 | g_Loss: 100866787.5600 | l_Loss: 161462.5587 | 
+21-12-23 05:43:40.800 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:43:40.801 - INFO: Train epoch 550:   Loss: 445021493.2800 | r_Loss: 1305426.3750 | g_Loss: 88710922.5600 | l_Loss: 161453.6801 | 
+21-12-23 05:44:52.407 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:44:52.407 - INFO: Train epoch 551:   Loss: 381135919.6800 | r_Loss: 1230348.2750 | g_Loss: 75944716.4000 | l_Loss: 181987.0639 | 
+21-12-23 05:46:04.149 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:46:04.149 - INFO: Train epoch 552:   Loss: 446510874.5600 | r_Loss: 1303685.1863 | g_Loss: 89009235.7600 | l_Loss: 161003.9435 | 
+21-12-23 05:47:15.866 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:47:15.866 - INFO: Train epoch 553:   Loss: 410013046.4000 | r_Loss: 1269881.2437 | g_Loss: 81717317.5200 | l_Loss: 156578.4471 | 
+21-12-23 05:48:27.609 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:48:27.610 - INFO: Train epoch 554:   Loss: 408456991.3600 | r_Loss: 1259481.5550 | g_Loss: 81406623.6000 | l_Loss: 164396.8704 | 
+21-12-23 05:49:39.292 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:49:39.293 - INFO: Train epoch 555:   Loss: 420058293.9200 | r_Loss: 1267153.6000 | g_Loss: 83725942.8000 | l_Loss: 161423.5507 | 
+21-12-23 05:50:50.789 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:50:50.790 - INFO: Train epoch 556:   Loss: 442129038.8800 | r_Loss: 1306198.2750 | g_Loss: 88131976.6800 | l_Loss: 162961.0782 | 
+21-12-23 05:52:02.376 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:52:02.376 - INFO: Train epoch 557:   Loss: 407324664.9600 | r_Loss: 1297448.8162 | g_Loss: 81173088.2400 | l_Loss: 161777.3782 | 
+21-12-23 05:53:13.903 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:53:13.903 - INFO: Train epoch 558:   Loss: 401721315.8400 | r_Loss: 1271861.9438 | g_Loss: 80059685.5200 | l_Loss: 151022.0339 | 
+21-12-23 05:54:25.530 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:54:25.530 - INFO: Train epoch 559:   Loss: 420950201.1200 | r_Loss: 1310228.0913 | g_Loss: 83899096.0800 | l_Loss: 144498.9439 | 
+21-12-23 05:55:37.144 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:55:37.145 - INFO: Train epoch 560:   Loss: 379787268.1600 | r_Loss: 1230309.4775 | g_Loss: 75683902.8800 | l_Loss: 137446.9425 | 
+21-12-23 05:56:48.598 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:56:48.599 - INFO: Train epoch 561:   Loss: 400873314.5600 | r_Loss: 1272568.6500 | g_Loss: 79894409.0800 | l_Loss: 128704.2321 | 
+21-12-23 05:58:00.260 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:58:00.260 - INFO: Train epoch 562:   Loss: 386475136.1600 | r_Loss: 1273973.1338 | g_Loss: 77006814.1200 | l_Loss: 167092.6040 | 
+21-12-23 05:59:11.793 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 05:59:11.793 - INFO: Train epoch 563:   Loss: 414594341.7600 | r_Loss: 1304300.5012 | g_Loss: 82630132.9600 | l_Loss: 139376.2365 | 
+21-12-23 06:00:23.395 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:00:23.396 - INFO: Train epoch 564:   Loss: 387063482.7200 | r_Loss: 1257788.5888 | g_Loss: 77130854.8800 | l_Loss: 151419.9034 | 
+21-12-23 06:01:34.998 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:01:34.999 - INFO: Train epoch 565:   Loss: 391377302.7200 | r_Loss: 1282027.9100 | g_Loss: 77987807.8400 | l_Loss: 156240.7463 | 
+21-12-23 06:02:46.734 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:02:46.735 - INFO: Train epoch 566:   Loss: 389541903.0400 | r_Loss: 1257434.8613 | g_Loss: 77628456.3200 | l_Loss: 142188.4620 | 
+21-12-23 06:03:58.276 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:03:58.277 - INFO: Train epoch 567:   Loss: 385313962.8800 | r_Loss: 1302443.4163 | g_Loss: 76767484.2000 | l_Loss: 174098.8862 | 
+21-12-23 06:05:09.815 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:05:09.816 - INFO: Train epoch 568:   Loss: 364540605.9200 | r_Loss: 1231824.7412 | g_Loss: 72634150.8800 | l_Loss: 138026.9271 | 
+21-12-23 06:06:21.304 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:06:21.304 - INFO: Train epoch 569:   Loss: 358850068.9600 | r_Loss: 1244120.9375 | g_Loss: 71491751.2000 | l_Loss: 147184.2926 | 
+21-12-23 06:08:06.611 - INFO: TEST:   PSNR_S: -16.8178 | PSNR_C: 0.1372 | 
+21-12-23 06:08:06.613 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:08:06.613 - INFO: Train epoch 570:   Loss: 358402115.5200 | r_Loss: 1233486.9925 | g_Loss: 71396523.4400 | l_Loss: 186016.1194 | 
+21-12-23 06:09:18.152 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:09:18.153 - INFO: Train epoch 571:   Loss: 317850326.4000 | r_Loss: 1174301.0950 | g_Loss: 63306055.4800 | l_Loss: 145746.6366 | 
+21-12-23 06:10:29.689 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:10:29.690 - INFO: Train epoch 572:   Loss: 348569897.1200 | r_Loss: 1244392.5562 | g_Loss: 69437847.8000 | l_Loss: 136263.3053 | 
+21-12-23 06:11:41.394 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:11:41.394 - INFO: Train epoch 573:   Loss: 314567266.0800 | r_Loss: 1185060.4587 | g_Loss: 62650697.2000 | l_Loss: 128722.2025 | 
+21-12-23 06:12:52.978 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:12:52.978 - INFO: Train epoch 574:   Loss: 363270031.6800 | r_Loss: 1284660.6850 | g_Loss: 72360425.1600 | l_Loss: 183245.1332 | 
+21-12-23 06:14:04.620 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:14:04.621 - INFO: Train epoch 575:   Loss: 298230154.7200 | r_Loss: 1145986.4400 | g_Loss: 59389953.8400 | l_Loss: 134400.4333 | 
+21-12-23 06:15:16.390 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:15:16.391 - INFO: Train epoch 576:   Loss: 329672990.0800 | r_Loss: 1208137.9612 | g_Loss: 65667074.1200 | l_Loss: 129482.8604 | 
+21-12-23 06:16:28.273 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:16:28.273 - INFO: Train epoch 577:   Loss: 311933877.9200 | r_Loss: 1164676.2000 | g_Loss: 62124346.8800 | l_Loss: 147465.9124 | 
+21-12-23 06:17:40.086 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:17:40.087 - INFO: Train epoch 578:   Loss: 307952201.2800 | r_Loss: 1188090.8862 | g_Loss: 61319503.0000 | l_Loss: 166593.8794 | 
+21-12-23 06:18:51.991 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:18:51.992 - INFO: Train epoch 579:   Loss: 300256493.4400 | r_Loss: 1159992.3388 | g_Loss: 59787720.0000 | l_Loss: 157896.0322 | 
+21-12-23 06:20:03.779 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:20:03.780 - INFO: Train epoch 580:   Loss: 286305670.0800 | r_Loss: 1151125.5537 | g_Loss: 57005390.0800 | l_Loss: 127591.1261 | 
+21-12-23 06:21:15.745 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:21:15.746 - INFO: Train epoch 581:   Loss: 292243275.3600 | r_Loss: 1174208.0025 | g_Loss: 58186326.4400 | l_Loss: 137435.0490 | 
+21-12-23 06:22:27.532 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:22:27.532 - INFO: Train epoch 582:   Loss: 286219823.3600 | r_Loss: 1148151.3300 | g_Loss: 56985390.4400 | l_Loss: 144718.0075 | 
+21-12-23 06:23:39.013 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:23:39.014 - INFO: Train epoch 583:   Loss: 301802632.1600 | r_Loss: 1199963.8175 | g_Loss: 60089485.3200 | l_Loss: 155243.6304 | 
+21-12-23 06:24:50.670 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:24:50.671 - INFO: Train epoch 584:   Loss: 262338130.0800 | r_Loss: 1094576.8613 | g_Loss: 52223220.4800 | l_Loss: 127448.8954 | 
+21-12-23 06:26:02.390 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:26:02.391 - INFO: Train epoch 585:   Loss: 277295504.9600 | r_Loss: 1135849.4106 | g_Loss: 55203853.9400 | l_Loss: 140389.0959 | 
+21-12-23 06:27:14.207 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:27:14.208 - INFO: Train epoch 586:   Loss: 295526458.5600 | r_Loss: 1215247.0275 | g_Loss: 58832261.0000 | l_Loss: 149906.1103 | 
+21-12-23 06:28:25.752 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:28:25.753 - INFO: Train epoch 587:   Loss: 232784954.8000 | r_Loss: 1068779.1738 | g_Loss: 46315695.7000 | l_Loss: 137698.2009 | 
+21-12-23 06:29:37.192 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:29:37.192 - INFO: Train epoch 588:   Loss: 249713314.0800 | r_Loss: 1096222.7200 | g_Loss: 49695936.8000 | l_Loss: 137407.0126 | 
+21-12-23 06:30:48.705 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:30:48.706 - INFO: Train epoch 589:   Loss: 242950426.8800 | r_Loss: 1113262.8613 | g_Loss: 48341613.6200 | l_Loss: 129097.6726 | 
+21-12-23 06:32:00.394 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:32:00.394 - INFO: Train epoch 590:   Loss: 282325114.4000 | r_Loss: 1178255.4450 | g_Loss: 56202104.0000 | l_Loss: 136341.1667 | 
+21-12-23 06:33:11.942 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:33:11.943 - INFO: Train epoch 591:   Loss: 274632065.7600 | r_Loss: 1162901.1187 | g_Loss: 54662436.6000 | l_Loss: 156981.8608 | 
+21-12-23 06:34:23.777 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:34:23.778 - INFO: Train epoch 592:   Loss: 206128433.5200 | r_Loss: 1031310.0863 | g_Loss: 40991851.2200 | l_Loss: 137869.0339 | 
+21-12-23 06:35:35.629 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:35:35.629 - INFO: Train epoch 593:   Loss: 265540846.4000 | r_Loss: 1167670.8462 | g_Loss: 52847664.6000 | l_Loss: 134851.1548 | 
+21-12-23 06:36:47.368 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:36:47.369 - INFO: Train epoch 594:   Loss: 245167314.0800 | r_Loss: 1127186.2850 | g_Loss: 48779143.0400 | l_Loss: 144412.8429 | 
+21-12-23 06:37:59.180 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:37:59.180 - INFO: Train epoch 595:   Loss: 242791554.4800 | r_Loss: 1114661.5600 | g_Loss: 48303501.9600 | l_Loss: 159383.1341 | 
+21-12-23 06:39:10.789 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:39:10.790 - INFO: Train epoch 596:   Loss: 239475917.1200 | r_Loss: 1132091.2488 | g_Loss: 47640491.7600 | l_Loss: 141368.2036 | 
+21-12-23 06:40:22.273 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:40:22.273 - INFO: Train epoch 597:   Loss: 223930824.4800 | r_Loss: 1110108.8750 | g_Loss: 44537881.0000 | l_Loss: 131310.4106 | 
+21-12-23 06:41:33.732 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:41:33.732 - INFO: Train epoch 598:   Loss: 233702785.0400 | r_Loss: 1117287.3462 | g_Loss: 46489236.2000 | l_Loss: 139316.4277 | 
+21-12-23 06:42:45.390 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:42:45.391 - INFO: Train epoch 599:   Loss: 218168822.4000 | r_Loss: 1088013.2100 | g_Loss: 43387738.5800 | l_Loss: 142117.8493 | 
+21-12-23 06:44:30.837 - INFO: TEST:   PSNR_S: -14.9013 | PSNR_C: 0.5614 | 
+21-12-23 06:44:30.838 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:44:30.839 - INFO: Train epoch 600:   Loss: 216027661.1200 | r_Loss: 1092630.6550 | g_Loss: 42962102.4200 | l_Loss: 124518.4271 | 
+21-12-23 06:45:42.436 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:45:42.436 - INFO: Train epoch 601:   Loss: 215593152.4800 | r_Loss: 1108757.4150 | g_Loss: 42867678.7600 | l_Loss: 146000.6322 | 
+21-12-23 06:46:54.010 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:46:54.011 - INFO: Train epoch 602:   Loss: 184897291.1200 | r_Loss: 1050193.5456 | g_Loss: 36742888.5800 | l_Loss: 132654.6871 | 
+21-12-23 06:48:05.725 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:48:05.726 - INFO: Train epoch 603:   Loss: 223290036.6400 | r_Loss: 1123533.3125 | g_Loss: 44404555.6800 | l_Loss: 143724.4187 | 
+21-12-23 06:49:17.251 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:49:17.251 - INFO: Train epoch 604:   Loss: 204363545.2000 | r_Loss: 1070574.2850 | g_Loss: 40629101.1200 | l_Loss: 147464.8943 | 
+21-12-23 06:50:28.896 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:50:28.897 - INFO: Train epoch 605:   Loss: 201126058.7200 | r_Loss: 1077210.3700 | g_Loss: 39985033.2800 | l_Loss: 123680.1464 | 
+21-12-23 06:51:40.480 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:51:40.481 - INFO: Train epoch 606:   Loss: 205779402.7200 | r_Loss: 1096594.8762 | g_Loss: 40908179.5400 | l_Loss: 141908.6312 | 
+21-12-23 06:52:51.913 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:52:51.913 - INFO: Train epoch 607:   Loss: 164954852.6400 | r_Loss: 1009616.5138 | g_Loss: 32768198.8600 | l_Loss: 104244.2007 | 
+21-12-23 06:54:03.967 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:54:03.967 - INFO: Train epoch 608:   Loss: 197109519.0400 | r_Loss: 1092758.8600 | g_Loss: 39178607.7800 | l_Loss: 123719.5361 | 
+21-12-23 06:55:15.684 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:55:15.685 - INFO: Train epoch 609:   Loss: 172145136.1600 | r_Loss: 1025122.8413 | g_Loss: 34199699.7000 | l_Loss: 121514.0175 | 
+21-12-23 06:56:27.641 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:56:27.642 - INFO: Train epoch 610:   Loss: 183981480.3200 | r_Loss: 1053322.7756 | g_Loss: 36552313.2200 | l_Loss: 166589.4325 | 
+21-12-23 06:57:39.418 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:57:39.419 - INFO: Train epoch 611:   Loss: 191598910.2400 | r_Loss: 1039056.2087 | g_Loss: 38085399.4600 | l_Loss: 132857.1682 | 
+21-12-23 06:58:50.889 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 06:58:50.889 - INFO: Train epoch 612:   Loss: 192485089.2000 | r_Loss: 1090336.1812 | g_Loss: 38252879.3600 | l_Loss: 130357.6633 | 
+21-12-23 07:00:02.324 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:00:02.325 - INFO: Train epoch 613:   Loss: 177470560.0000 | r_Loss: 1052173.9675 | g_Loss: 35255058.2200 | l_Loss: 143096.4656 | 
+21-12-23 07:01:13.857 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:01:13.858 - INFO: Train epoch 614:   Loss: 159715049.6800 | r_Loss: 1008616.4637 | g_Loss: 31717880.7600 | l_Loss: 117028.6537 | 
+21-12-23 07:02:25.363 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:02:25.364 - INFO: Train epoch 615:   Loss: 156807853.4400 | r_Loss: 978620.5062 | g_Loss: 31141080.5400 | l_Loss: 123829.4958 | 
+21-12-23 07:03:36.901 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:03:36.901 - INFO: Train epoch 616:   Loss: 152364682.4800 | r_Loss: 985264.0637 | g_Loss: 30251087.1800 | l_Loss: 123981.4872 | 
+21-12-23 07:04:48.629 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:04:48.629 - INFO: Train epoch 617:   Loss: 156854233.6800 | r_Loss: 972194.8113 | g_Loss: 31153558.2000 | l_Loss: 114247.3982 | 
+21-12-23 07:06:00.121 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:06:00.121 - INFO: Train epoch 618:   Loss: 136189774.0800 | r_Loss: 946655.3075 | g_Loss: 27024557.8800 | l_Loss: 120328.9325 | 
+21-12-23 07:07:11.734 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:07:11.735 - INFO: Train epoch 619:   Loss: 134762224.4800 | r_Loss: 945004.6388 | g_Loss: 26740212.1400 | l_Loss: 116160.6611 | 
+21-12-23 07:08:23.344 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:08:23.345 - INFO: Train epoch 620:   Loss: 123556338.1600 | r_Loss: 931824.7350 | g_Loss: 24500423.3600 | l_Loss: 122397.4247 | 
+21-12-23 07:09:35.022 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:09:35.022 - INFO: Train epoch 621:   Loss: 119949220.1600 | r_Loss: 943148.8888 | g_Loss: 23781963.0800 | l_Loss: 96254.8271 | 
+21-12-23 07:10:46.556 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:10:46.557 - INFO: Train epoch 622:   Loss: 90896532.4800 | r_Loss: 828016.7550 | g_Loss: 17994009.5800 | l_Loss: 98467.6586 | 
+21-12-23 07:11:58.164 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:11:58.164 - INFO: Train epoch 623:   Loss: 92615349.4400 | r_Loss: 864387.1750 | g_Loss: 18328388.1800 | l_Loss: 109022.2906 | 
+21-12-23 07:13:09.822 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:13:09.823 - INFO: Train epoch 624:   Loss: 88061754.4800 | r_Loss: 855713.9950 | g_Loss: 17421307.1600 | l_Loss: 99504.9866 | 
+21-12-23 07:14:21.491 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:14:21.491 - INFO: Train epoch 625:   Loss: 74963703.6800 | r_Loss: 790401.1656 | g_Loss: 14815436.5800 | l_Loss: 96118.3635 | 
+21-12-23 07:15:33.085 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:15:33.086 - INFO: Train epoch 626:   Loss: 77667373.5200 | r_Loss: 836760.6138 | g_Loss: 15344453.2800 | l_Loss: 108346.3162 | 
+21-12-23 07:16:44.785 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:16:44.785 - INFO: Train epoch 627:   Loss: 72423299.2800 | r_Loss: 809193.6094 | g_Loss: 14304157.8000 | l_Loss: 93317.3286 | 
+21-12-23 07:17:56.399 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:17:56.400 - INFO: Train epoch 628:   Loss: 78794555.2000 | r_Loss: 851284.0306 | g_Loss: 15569208.0800 | l_Loss: 97231.3470 | 
+21-12-23 07:19:08.069 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:19:08.070 - INFO: Train epoch 629:   Loss: 67764676.9600 | r_Loss: 798531.9900 | g_Loss: 13373221.0300 | l_Loss: 100039.8863 | 
+21-12-23 07:20:53.570 - INFO: TEST:   PSNR_S: -10.2789 | PSNR_C: 1.8093 | 
+21-12-23 07:20:53.571 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:20:53.571 - INFO: Train epoch 630:   Loss: 67839748.8800 | r_Loss: 820919.2681 | g_Loss: 13379475.3700 | l_Loss: 121452.3935 | 
+21-12-23 07:22:05.160 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:22:05.161 - INFO: Train epoch 631:   Loss: 63135812.5600 | r_Loss: 783662.2431 | g_Loss: 12450658.1200 | l_Loss: 98859.0805 | 
+21-12-23 07:23:16.849 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:23:16.850 - INFO: Train epoch 632:   Loss: 69891668.8800 | r_Loss: 840820.4531 | g_Loss: 13789062.8700 | l_Loss: 105534.5962 | 
+21-12-23 07:24:28.526 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:24:28.527 - INFO: Train epoch 633:   Loss: 69930630.0000 | r_Loss: 857650.8250 | g_Loss: 13793548.7000 | l_Loss: 105234.9674 | 
+21-12-23 07:25:40.052 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:25:40.052 - INFO: Train epoch 634:   Loss: 61125707.1200 | r_Loss: 794880.5563 | g_Loss: 12046061.8800 | l_Loss: 100517.1528 | 
+21-12-23 07:26:51.692 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:26:51.692 - INFO: Train epoch 635:   Loss: 62947608.9200 | r_Loss: 818731.1181 | g_Loss: 12404134.0800 | l_Loss: 108207.5200 | 
+21-12-23 07:28:03.273 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:28:03.273 - INFO: Train epoch 636:   Loss: 69382046.3600 | r_Loss: 856576.1519 | g_Loss: 13685004.6800 | l_Loss: 100446.6230 | 
+21-12-23 07:29:14.937 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:29:14.938 - INFO: Train epoch 637:   Loss: 63124793.6000 | r_Loss: 822004.0012 | g_Loss: 12439421.2900 | l_Loss: 105683.1111 | 
+21-12-23 07:30:26.579 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:30:26.580 - INFO: Train epoch 638:   Loss: 59088759.0400 | r_Loss: 810464.0188 | g_Loss: 11635471.2200 | l_Loss: 100938.4848 | 
+21-12-23 07:31:38.137 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:31:38.138 - INFO: Train epoch 639:   Loss: 61325913.2000 | r_Loss: 850314.1325 | g_Loss: 12073726.7900 | l_Loss: 106964.9011 | 
+21-12-23 07:32:49.780 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:32:49.781 - INFO: Train epoch 640:   Loss: 61698631.0400 | r_Loss: 853074.2662 | g_Loss: 12146393.9600 | l_Loss: 113588.0880 | 
+21-12-23 07:34:01.568 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:34:01.569 - INFO: Train epoch 641:   Loss: 60080608.8800 | r_Loss: 840788.0950 | g_Loss: 11829226.6400 | l_Loss: 93687.1879 | 
+21-12-23 07:35:13.231 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:35:13.232 - INFO: Train epoch 642:   Loss: 62012964.8400 | r_Loss: 861315.9012 | g_Loss: 12205523.7900 | l_Loss: 124029.7314 | 
+21-12-23 07:36:25.012 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:36:25.012 - INFO: Train epoch 643:   Loss: 57089096.4400 | r_Loss: 828570.4800 | g_Loss: 11231818.1200 | l_Loss: 101435.7157 | 
+21-12-23 07:37:36.729 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:37:36.730 - INFO: Train epoch 644:   Loss: 53445330.3200 | r_Loss: 804326.6431 | g_Loss: 10504679.0200 | l_Loss: 117608.5127 | 
+21-12-23 07:38:48.448 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:38:48.449 - INFO: Train epoch 645:   Loss: 55418740.1600 | r_Loss: 833195.1887 | g_Loss: 10897913.8100 | l_Loss: 95976.2220 | 
+21-12-23 07:40:00.018 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:40:00.019 - INFO: Train epoch 646:   Loss: 58657607.4800 | r_Loss: 876028.8531 | g_Loss: 11533991.7900 | l_Loss: 111620.1738 | 
+21-12-23 07:41:11.713 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:41:11.714 - INFO: Train epoch 647:   Loss: 54856537.1200 | r_Loss: 854396.1200 | g_Loss: 10777087.5900 | l_Loss: 116702.9671 | 
+21-12-23 07:42:23.489 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:42:23.489 - INFO: Train epoch 648:   Loss: 55137062.3600 | r_Loss: 870371.8575 | g_Loss: 10830635.9900 | l_Loss: 113510.4107 | 
+21-12-23 07:43:35.192 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:43:35.193 - INFO: Train epoch 649:   Loss: 50337756.4000 | r_Loss: 819094.7987 | g_Loss: 9881945.5200 | l_Loss: 108933.6228 | 
+21-12-23 07:44:46.858 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:44:46.858 - INFO: Train epoch 650:   Loss: 52409647.1600 | r_Loss: 863488.9281 | g_Loss: 10285907.5200 | l_Loss: 116621.1762 | 
+21-12-23 07:45:58.439 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:45:58.440 - INFO: Train epoch 651:   Loss: 51628065.6800 | r_Loss: 846141.8287 | g_Loss: 10137475.5400 | l_Loss: 94546.5831 | 
+21-12-23 07:47:10.046 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:47:10.047 - INFO: Train epoch 652:   Loss: 52534666.2000 | r_Loss: 889116.0669 | g_Loss: 10305805.7400 | l_Loss: 116521.1639 | 
+21-12-23 07:48:21.836 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:48:21.837 - INFO: Train epoch 653:   Loss: 50547632.5200 | r_Loss: 872534.5413 | g_Loss: 9913457.8200 | l_Loss: 107809.1283 | 
+21-12-23 07:49:33.557 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:49:33.558 - INFO: Train epoch 654:   Loss: 46970078.7200 | r_Loss: 861816.8556 | g_Loss: 9198671.6500 | l_Loss: 114903.6330 | 
+21-12-23 07:50:45.288 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:50:45.289 - INFO: Train epoch 655:   Loss: 44833038.8400 | r_Loss: 860045.3888 | g_Loss: 8775192.8100 | l_Loss: 97029.4268 | 
+21-12-23 07:51:56.946 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:51:56.947 - INFO: Train epoch 656:   Loss: 47458367.4400 | r_Loss: 886940.1550 | g_Loss: 9292864.3300 | l_Loss: 107105.2183 | 
+21-12-23 07:53:08.541 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:53:08.541 - INFO: Train epoch 657:   Loss: 44977942.2400 | r_Loss: 866162.5563 | g_Loss: 8801579.9500 | l_Loss: 103879.8895 | 
+21-12-23 07:54:20.289 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:54:20.289 - INFO: Train epoch 658:   Loss: 47136382.9200 | r_Loss: 899000.0925 | g_Loss: 9225602.4700 | l_Loss: 109370.6696 | 
+21-12-23 07:55:31.892 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:55:31.892 - INFO: Train epoch 659:   Loss: 46460251.1200 | r_Loss: 912975.9400 | g_Loss: 9086783.0000 | l_Loss: 113360.4937 | 
+21-12-23 07:57:17.278 - INFO: TEST:   PSNR_S: -8.3206 | PSNR_C: 1.4701 | 
+21-12-23 07:57:17.280 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:57:17.280 - INFO: Train epoch 660:   Loss: 48168629.9200 | r_Loss: 922898.9769 | g_Loss: 9423312.1700 | l_Loss: 129170.3698 | 
+21-12-23 07:58:29.044 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:58:29.045 - INFO: Train epoch 661:   Loss: 44714711.4800 | r_Loss: 901556.0369 | g_Loss: 8737483.2300 | l_Loss: 125739.2605 | 
+21-12-23 07:59:40.761 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 07:59:40.762 - INFO: Train epoch 662:   Loss: 41691923.5200 | r_Loss: 893976.0019 | g_Loss: 8138431.0600 | l_Loss: 105792.5574 | 
+21-12-23 08:00:52.427 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:00:52.427 - INFO: Train epoch 663:   Loss: 45921889.9600 | r_Loss: 940065.0337 | g_Loss: 8971948.2550 | l_Loss: 122083.8114 | 
+21-12-23 08:02:03.968 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:02:03.969 - INFO: Train epoch 664:   Loss: 39720050.5200 | r_Loss: 870803.1562 | g_Loss: 7746770.8300 | l_Loss: 115393.2703 | 
+21-12-23 08:03:15.517 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:03:15.518 - INFO: Train epoch 665:   Loss: 44407647.9200 | r_Loss: 951733.5513 | g_Loss: 8670938.3800 | l_Loss: 101222.6450 | 
+21-12-23 08:04:27.108 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:04:27.109 - INFO: Train epoch 666:   Loss: 40459879.8000 | r_Loss: 896718.1875 | g_Loss: 7889032.3300 | l_Loss: 118000.0236 | 
+21-12-23 08:05:38.856 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:05:38.856 - INFO: Train epoch 667:   Loss: 39514370.3200 | r_Loss: 899746.9287 | g_Loss: 7700645.7900 | l_Loss: 111394.5682 | 
+21-12-23 08:06:50.446 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:06:50.446 - INFO: Train epoch 668:   Loss: 40036589.8800 | r_Loss: 950077.0988 | g_Loss: 7792118.2800 | l_Loss: 125921.0782 | 
+21-12-23 08:08:02.032 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:08:02.033 - INFO: Train epoch 669:   Loss: 37361738.9200 | r_Loss: 929937.1325 | g_Loss: 7262141.8650 | l_Loss: 121093.0181 | 
+21-12-23 08:09:13.727 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:09:13.727 - INFO: Train epoch 670:   Loss: 36456533.0400 | r_Loss: 922978.2338 | g_Loss: 7084626.1100 | l_Loss: 110424.5288 | 
+21-12-23 08:10:25.353 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:10:25.353 - INFO: Train epoch 671:   Loss: 34089864.2400 | r_Loss: 924269.7288 | g_Loss: 6612023.0700 | l_Loss: 105479.1968 | 
+21-12-23 08:11:36.968 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:11:36.968 - INFO: Train epoch 672:   Loss: 34206007.3200 | r_Loss: 999340.9962 | g_Loss: 6618739.9250 | l_Loss: 112966.7977 | 
+21-12-23 08:12:48.584 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:12:48.584 - INFO: Train epoch 673:   Loss: 33615893.1200 | r_Loss: 1048601.7150 | g_Loss: 6486004.7550 | l_Loss: 137267.5980 | 
+21-12-23 08:14:00.295 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:14:00.295 - INFO: Train epoch 674:   Loss: 32164512.8000 | r_Loss: 1067892.7075 | g_Loss: 6190948.9700 | l_Loss: 141874.9606 | 
+21-12-23 08:15:11.891 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:15:11.892 - INFO: Train epoch 675:   Loss: 31131519.3600 | r_Loss: 1096657.2712 | g_Loss: 5978551.9350 | l_Loss: 142102.5273 | 
+21-12-23 08:16:23.618 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:16:23.619 - INFO: Train epoch 676:   Loss: 29829637.6400 | r_Loss: 1110575.7725 | g_Loss: 5718411.5200 | l_Loss: 127004.4289 | 
+21-12-23 08:17:35.243 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:17:35.244 - INFO: Train epoch 677:   Loss: 28290148.3200 | r_Loss: 1112440.7750 | g_Loss: 5410184.1800 | l_Loss: 126786.7232 | 
+21-12-23 08:18:46.838 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:18:46.839 - INFO: Train epoch 678:   Loss: 28370519.7800 | r_Loss: 1140281.0244 | g_Loss: 5416022.6250 | l_Loss: 150125.7048 | 
+21-12-23 08:19:58.457 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:19:58.458 - INFO: Train epoch 679:   Loss: 29637712.2000 | r_Loss: 1266459.3925 | g_Loss: 5641654.0550 | l_Loss: 162982.3919 | 
+21-12-23 08:21:10.093 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:21:10.093 - INFO: Train epoch 680:   Loss: 26203652.3800 | r_Loss: 1111855.9888 | g_Loss: 4986052.6850 | l_Loss: 161533.2257 | 
+21-12-23 08:22:21.889 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:22:21.890 - INFO: Train epoch 681:   Loss: 27004421.6200 | r_Loss: 1204261.5275 | g_Loss: 5128406.1550 | l_Loss: 158129.3767 | 
+21-12-23 08:23:33.450 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:23:33.450 - INFO: Train epoch 682:   Loss: 26094673.4400 | r_Loss: 1207099.2125 | g_Loss: 4953211.1200 | l_Loss: 121518.7352 | 
+21-12-23 08:24:45.149 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:24:45.149 - INFO: Train epoch 683:   Loss: 26732533.8400 | r_Loss: 1304803.2325 | g_Loss: 5058096.2400 | l_Loss: 137249.2602 | 
+21-12-23 08:25:56.721 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:25:56.721 - INFO: Train epoch 684:   Loss: 25694972.7800 | r_Loss: 1286016.3762 | g_Loss: 4852142.1700 | l_Loss: 148245.2970 | 
+21-12-23 08:27:08.477 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:27:08.478 - INFO: Train epoch 685:   Loss: 25806595.6600 | r_Loss: 1307444.5913 | g_Loss: 4870892.7250 | l_Loss: 144687.7984 | 
+21-12-23 08:28:19.993 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:28:19.994 - INFO: Train epoch 686:   Loss: 25873526.5400 | r_Loss: 1394798.8300 | g_Loss: 4859231.8300 | l_Loss: 182568.3155 | 
+21-12-23 08:29:31.673 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:29:31.674 - INFO: Train epoch 687:   Loss: 23892662.1600 | r_Loss: 1363960.7650 | g_Loss: 4470850.1050 | l_Loss: 174450.7663 | 
+21-12-23 08:30:43.348 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:30:43.348 - INFO: Train epoch 688:   Loss: 23599915.8600 | r_Loss: 1362919.3162 | g_Loss: 4413273.4600 | l_Loss: 170629.3304 | 
+21-12-23 08:31:54.940 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:31:54.941 - INFO: Train epoch 689:   Loss: 25428884.0400 | r_Loss: 1576873.7100 | g_Loss: 4732591.2500 | l_Loss: 189053.9780 | 
+21-12-23 08:33:40.418 - INFO: TEST:   PSNR_S: -5.3467 | PSNR_C: -1.0991 | 
+21-12-23 08:33:40.419 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:33:40.419 - INFO: Train epoch 690:   Loss: 23897444.3600 | r_Loss: 1653187.2712 | g_Loss: 4413615.7900 | l_Loss: 176178.1972 | 
+21-12-23 08:34:51.954 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:34:51.955 - INFO: Train epoch 691:   Loss: 22366142.6800 | r_Loss: 1535119.5762 | g_Loss: 4129352.2250 | l_Loss: 184261.9464 | 
+21-12-23 08:36:03.545 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:36:03.546 - INFO: Train epoch 692:   Loss: 22936492.4600 | r_Loss: 1733740.0012 | g_Loss: 4195908.9050 | l_Loss: 223208.0294 | 
+21-12-23 08:37:15.205 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:37:15.205 - INFO: Train epoch 693:   Loss: 21958441.3800 | r_Loss: 1733629.9837 | g_Loss: 3997467.4150 | l_Loss: 237474.4165 | 
+21-12-23 08:38:26.804 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:38:26.805 - INFO: Train epoch 694:   Loss: 21659330.9800 | r_Loss: 1801592.1250 | g_Loss: 3920727.9950 | l_Loss: 254098.7306 | 
+21-12-23 08:39:38.438 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:39:38.439 - INFO: Train epoch 695:   Loss: 21530520.5400 | r_Loss: 1780270.6838 | g_Loss: 3910180.6000 | l_Loss: 199346.8565 | 
+21-12-23 08:40:49.941 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:40:49.942 - INFO: Train epoch 696:   Loss: 21781581.8600 | r_Loss: 1905639.1038 | g_Loss: 3916966.2500 | l_Loss: 291111.5294 | 
+21-12-23 08:42:01.556 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:42:01.557 - INFO: Train epoch 697:   Loss: 21418818.5400 | r_Loss: 1850728.4812 | g_Loss: 3872693.2600 | l_Loss: 204623.8649 | 
+21-12-23 08:43:13.217 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:43:13.218 - INFO: Train epoch 698:   Loss: 20543897.7000 | r_Loss: 1861788.1612 | g_Loss: 3688399.3125 | l_Loss: 240113.0713 | 
+21-12-23 08:44:24.721 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:44:24.721 - INFO: Train epoch 699:   Loss: 20177230.3200 | r_Loss: 1801076.3987 | g_Loss: 3627756.3900 | l_Loss: 237371.9056 | 
+21-12-23 08:45:36.175 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:45:36.176 - INFO: Train epoch 700:   Loss: 20631020.0800 | r_Loss: 1881722.0837 | g_Loss: 3701829.6450 | l_Loss: 240149.8105 | 
+21-12-23 08:46:47.823 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:46:47.823 - INFO: Train epoch 701:   Loss: 20379790.0600 | r_Loss: 1997369.5662 | g_Loss: 3624054.8150 | l_Loss: 262146.2973 | 
+21-12-23 08:47:59.492 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:47:59.492 - INFO: Train epoch 702:   Loss: 20627120.6600 | r_Loss: 2019960.7025 | g_Loss: 3670962.4000 | l_Loss: 252347.6248 | 
+21-12-23 08:49:11.008 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:49:11.009 - INFO: Train epoch 703:   Loss: 21061596.0600 | r_Loss: 2264558.6888 | g_Loss: 3704818.9550 | l_Loss: 272942.2992 | 
+21-12-23 08:50:22.552 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:50:22.553 - INFO: Train epoch 704:   Loss: 19763132.7800 | r_Loss: 2038603.3050 | g_Loss: 3506642.2600 | l_Loss: 191318.4615 | 
+21-12-23 08:51:34.083 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:51:34.083 - INFO: Train epoch 705:   Loss: 19450186.0200 | r_Loss: 2026726.4325 | g_Loss: 3428489.5500 | l_Loss: 281011.8970 | 
+21-12-23 08:52:45.774 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:52:45.774 - INFO: Train epoch 706:   Loss: 19581083.8800 | r_Loss: 2122055.6250 | g_Loss: 3417527.8650 | l_Loss: 371389.0206 | 
+21-12-23 08:53:57.255 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:53:57.256 - INFO: Train epoch 707:   Loss: 19364130.6800 | r_Loss: 2070567.9725 | g_Loss: 3407761.0800 | l_Loss: 254757.2705 | 
+21-12-23 08:55:08.894 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:55:08.895 - INFO: Train epoch 708:   Loss: 19178584.0000 | r_Loss: 2183483.4300 | g_Loss: 3345878.5450 | l_Loss: 265707.6803 | 
+21-12-23 08:56:20.445 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:56:20.445 - INFO: Train epoch 709:   Loss: 19304216.1400 | r_Loss: 2251750.7275 | g_Loss: 3357556.7550 | l_Loss: 264681.7369 | 
+21-12-23 08:57:31.970 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:57:31.970 - INFO: Train epoch 710:   Loss: 18939246.5200 | r_Loss: 2310038.4450 | g_Loss: 3270580.3100 | l_Loss: 276306.5292 | 
+21-12-23 08:58:43.605 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:58:43.605 - INFO: Train epoch 711:   Loss: 18632885.5400 | r_Loss: 2325031.1475 | g_Loss: 3207531.2250 | l_Loss: 270198.2048 | 
+21-12-23 08:59:55.153 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 08:59:55.153 - INFO: Train epoch 712:   Loss: 17756690.4000 | r_Loss: 2297872.8675 | g_Loss: 3046037.4825 | l_Loss: 228630.1697 | 
+21-12-23 09:01:06.656 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:01:06.657 - INFO: Train epoch 713:   Loss: 17685599.6400 | r_Loss: 2264002.8350 | g_Loss: 3032762.4100 | l_Loss: 257784.6343 | 
+21-12-23 09:02:18.186 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:02:18.187 - INFO: Train epoch 714:   Loss: 17212725.5200 | r_Loss: 2471556.4450 | g_Loss: 2893083.4100 | l_Loss: 275752.0733 | 
+21-12-23 09:03:29.763 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:03:29.764 - INFO: Train epoch 715:   Loss: 16032564.3400 | r_Loss: 2106445.5162 | g_Loss: 2730766.4850 | l_Loss: 272286.3216 | 
+21-12-23 09:04:41.197 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:04:41.197 - INFO: Train epoch 716:   Loss: 15923125.2000 | r_Loss: 2273976.4512 | g_Loss: 2662748.2525 | l_Loss: 335407.5166 | 
+21-12-23 09:05:52.678 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:05:52.678 - INFO: Train epoch 717:   Loss: 16117188.8400 | r_Loss: 2453670.6775 | g_Loss: 2670701.6700 | l_Loss: 310009.7373 | 
+21-12-23 09:07:04.159 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:07:04.159 - INFO: Train epoch 718:   Loss: 15914250.2800 | r_Loss: 2524379.8275 | g_Loss: 2605778.9825 | l_Loss: 360975.6768 | 
+21-12-23 09:08:15.661 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:08:15.662 - INFO: Train epoch 719:   Loss: 16289348.4200 | r_Loss: 2767300.0175 | g_Loss: 2643973.7825 | l_Loss: 302179.5767 | 
+21-12-23 09:10:01.140 - INFO: TEST:   PSNR_S: -2.9895 | PSNR_C: -2.9415 | 
+21-12-23 09:10:01.141 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:10:01.141 - INFO: Train epoch 720:   Loss: 15160841.5000 | r_Loss: 2550901.7250 | g_Loss: 2463365.5425 | l_Loss: 293112.0502 | 
+21-12-23 09:11:12.597 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:11:12.597 - INFO: Train epoch 721:   Loss: 15236670.2800 | r_Loss: 2681793.4050 | g_Loss: 2444960.7500 | l_Loss: 330072.9830 | 
+21-12-23 09:12:24.072 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:12:24.073 - INFO: Train epoch 722:   Loss: 15033387.4600 | r_Loss: 2597366.3550 | g_Loss: 2411054.8700 | l_Loss: 380746.7720 | 
+21-12-23 09:13:35.685 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:13:35.685 - INFO: Train epoch 723:   Loss: 14601922.3400 | r_Loss: 2526218.8875 | g_Loss: 2357974.5700 | l_Loss: 285830.5411 | 
+21-12-23 09:14:47.169 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:14:47.170 - INFO: Train epoch 724:   Loss: 14424741.3600 | r_Loss: 2740522.6900 | g_Loss: 2277243.0375 | l_Loss: 298003.5609 | 
+21-12-23 09:15:58.679 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:15:58.680 - INFO: Train epoch 725:   Loss: 14017187.7100 | r_Loss: 2614121.2588 | g_Loss: 2197083.4075 | l_Loss: 417649.3145 | 
+21-12-23 09:17:10.143 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:17:10.144 - INFO: Train epoch 726:   Loss: 14130631.9400 | r_Loss: 2905722.2450 | g_Loss: 2182737.5425 | l_Loss: 311222.0709 | 
+21-12-23 09:18:21.507 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:18:21.508 - INFO: Train epoch 727:   Loss: 13639048.8200 | r_Loss: 2646995.2850 | g_Loss: 2131122.9575 | l_Loss: 336438.9068 | 
+21-12-23 09:19:32.988 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:19:32.989 - INFO: Train epoch 728:   Loss: 13726933.0600 | r_Loss: 2659083.0175 | g_Loss: 2145709.3225 | l_Loss: 339303.4544 | 
+21-12-23 09:20:44.447 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:20:44.448 - INFO: Train epoch 729:   Loss: 13591318.7900 | r_Loss: 2836316.5825 | g_Loss: 2077279.9875 | l_Loss: 368602.2794 | 
+21-12-23 09:21:55.959 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:21:55.960 - INFO: Train epoch 730:   Loss: 13211514.9400 | r_Loss: 2805671.9475 | g_Loss: 2022602.6200 | l_Loss: 292829.9267 | 
+21-12-23 09:23:07.403 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:23:07.404 - INFO: Train epoch 731:   Loss: 13127105.4400 | r_Loss: 2686136.7750 | g_Loss: 2037143.0550 | l_Loss: 255253.4432 | 
+21-12-23 09:24:18.788 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:24:18.788 - INFO: Train epoch 732:   Loss: 12440257.9600 | r_Loss: 2856878.1825 | g_Loss: 1858866.4900 | l_Loss: 289047.2602 | 
+21-12-23 09:25:30.208 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:25:30.209 - INFO: Train epoch 733:   Loss: 12269793.4200 | r_Loss: 2790974.8400 | g_Loss: 1844600.4350 | l_Loss: 255816.3684 | 
+21-12-23 09:26:41.594 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:26:41.595 - INFO: Train epoch 734:   Loss: 12384653.5400 | r_Loss: 2841457.0700 | g_Loss: 1837752.3575 | l_Loss: 354434.7245 | 
+21-12-23 09:27:53.050 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:27:53.050 - INFO: Train epoch 735:   Loss: 11493798.2300 | r_Loss: 2498860.6175 | g_Loss: 1742483.3250 | l_Loss: 282520.9400 | 
+21-12-23 09:29:04.506 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:29:04.507 - INFO: Train epoch 736:   Loss: 11372856.2600 | r_Loss: 2652595.9875 | g_Loss: 1677050.0025 | l_Loss: 335010.2470 | 
+21-12-23 09:30:16.002 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:30:16.002 - INFO: Train epoch 737:   Loss: 9417554195.2600 | r_Loss: 2781802.8588 | g_Loss: 1882886499.7450 | l_Loss: 340175.6546 | 
+21-12-23 09:31:27.482 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:31:27.482 - INFO: Train epoch 738:   Loss: 1211367889.2800 | r_Loss: 758270.1637 | g_Loss: 242102727.2800 | l_Loss: 95981.9461 | 
+21-12-23 09:32:38.934 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:32:38.934 - INFO: Train epoch 739:   Loss: 362397786.5600 | r_Loss: 737582.9550 | g_Loss: 72313710.8800 | l_Loss: 91647.3198 | 
+21-12-23 09:33:50.512 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:33:50.513 - INFO: Train epoch 740:   Loss: 323425886.0800 | r_Loss: 746265.8512 | g_Loss: 64519525.0400 | l_Loss: 81995.4438 | 
+21-12-23 09:35:01.927 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:35:01.928 - INFO: Train epoch 741:   Loss: 276828122.7200 | r_Loss: 719118.5900 | g_Loss: 55203219.2800 | l_Loss: 92909.8851 | 
+21-12-23 09:36:13.407 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:36:13.407 - INFO: Train epoch 742:   Loss: 232409402.5600 | r_Loss: 724670.4206 | g_Loss: 46317853.6400 | l_Loss: 95463.6913 | 
+21-12-23 09:37:24.935 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:37:24.936 - INFO: Train epoch 743:   Loss: 204889567.5200 | r_Loss: 715549.1963 | g_Loss: 40815100.4000 | l_Loss: 98516.5876 | 
+21-12-23 09:38:36.436 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:38:36.437 - INFO: Train epoch 744:   Loss: 195117994.2400 | r_Loss: 719454.7788 | g_Loss: 38861255.8800 | l_Loss: 92260.0813 | 
+21-12-23 09:39:47.949 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:39:47.949 - INFO: Train epoch 745:   Loss: 194697128.9600 | r_Loss: 744439.0637 | g_Loss: 38771361.9200 | l_Loss: 95881.3857 | 
+21-12-23 09:40:59.230 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:40:59.231 - INFO: Train epoch 746:   Loss: 164023612.6400 | r_Loss: 709407.3825 | g_Loss: 32642727.8000 | l_Loss: 100566.6169 | 
+21-12-23 09:42:10.671 - INFO: Learning rate: 3.1622776601683795e-05
+21-12-23 09:42:10.671 - INFO: Train epoch 747:   Loss: 154628368.8000 | r_Loss: 710731.2412 | g_Loss: 30765499.0400 | l_Loss: 90143.9358 | 
