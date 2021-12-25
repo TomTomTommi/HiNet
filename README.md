@@ -48,7 +48,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 ## Training demo
 - Here we provide a training demo to show how to train a converged model in the early training stage. Note that in order to log the training process, we have imported `logging` package, with slightly modified `train_logging.py` and `util.py` files.
 
-<br/>
+
 - Stage1: 
   Run `python train_logging.py` for training.
   The logging file is [train__211222-183515.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211222-183515.log).
