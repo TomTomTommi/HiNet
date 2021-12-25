@@ -53,6 +53,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 
 - Stage1: 
   Run `python train_logging.py` for training with initial `config.py` (learning rate=10^-4.5).
+  
   The logging file is [train__211222-183515.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211222-183515.log).
   (The values of r_loss and g_loss are reversed due to a small bug, which has been debuged in stage2.)
   <br/>
@@ -66,8 +67,10 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 
 
 - Stage2: 
-  Set `suffix = 'model_checkpoint_00500.pt'` and `tain_next = True` and `trained_epoch = 500`
+  Set `suffix = 'model_checkpoint_00500.pt'` and `tain_next = True` and `trained_epoch = 500`.
+  
   Change the learning rate from 10^-4.5 to 10^-5.0.
+  
   Run `python train_logging.py` for training.
   <br/>
   The logging file is [train__211223-100502.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211223-100502.log).
@@ -83,7 +86,9 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
 
 - Stage3: 
   Similar operation.
+  
   Change the learning rate from 10^-5.0 to 10^-5.2.
+  
   The logging file is [train__211224-105010.log](https://github.com/TomTomTommi/HiNet/blob/main/logging/train__211224-105010.log).
   <br/>
   <br/>
@@ -92,7 +97,7 @@ set `MODEL_PATH = '/home/usrname/Hinet/model/'` and file name `suffix = 'model.p
   <img src=https://github.com/TomTomTommi/HiNet/blob/main/logging/stage3.png width=60% />
   <br/>
   <br/>
-  We can see that the network has initially converged. Then, you can change the super-parameters lamda according to the PSNR to balance the quality of stego image and recovered image.
+  We can see that the network has initially converged. Then, you can change the super-parameters lamda according to the PSNR to balance the quality of stego image and recovered image. Note that the PSNR in the tensorboard is RGB-PSNR and in our paper is Y-PSNR.
 
 
 ## Others
