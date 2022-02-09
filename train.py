@@ -135,8 +135,8 @@ try:
             #################
             g_loss = guide_loss(steg_img.cuda(), cover.cuda())
             r_loss = reconstruction_loss(secret_rev, secret)
-            steg_low = output_steg[0]
-            cover_low = cover_input[0]
+            steg_low = output_steg.narrow(1, 0, c.channels_in)
+            cover_low = cover_input.narrow(1, 0, c.channels_in)
             l_loss = low_frequency_loss(steg_low, cover_low)
 
             total_loss = c.lamda_reconstruction * r_loss + c.lamda_guide * g_loss + c.lamda_low_frequency * l_loss
